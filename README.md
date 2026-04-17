@@ -23,8 +23,7 @@ class AsjadRehman:
     def __init__(self):
         self.name        = "Muhammad Asjad Rehman Hashmi"
         self.university  = "University of Southern Mississippi"
-        self.degrees     = ["B.S. Computer Science", "B.A. Political Science (Pre-Law)"]
-        self.lab         = "SPEN Lab — IoT & Internet of Drones Privacy"
+        self.degrees     = ["B.S. Computer Science", "B.A. Political Science"]
         self.roles       = [
             "Operations & Client Success Lead @ InfinixLeverage",
             "Vice President & Imam @ Islamic Center of Hattiesburg",
@@ -87,14 +86,13 @@ class AsjadRehman:
 | Project | Description | Stack |
 |:-------:|:-----------:|:-----:|
 | 🏢 **[Madina Enterprises](https://github.com/Shehanshah1/MadinaEnterprises)** | Full-stack cotton brokerage management system — contracts, deliveries, payments, ledgers, cloud sync | `C#` `.NET MAUI` `SQLite` `Supabase` |
-| 🔐 **CryptoPals Suite** | Cryptographic attack simulations with full UI & test suite | `C#` `.NET` `Cryptography` |
+| 🔐 **[CryptoPals Suite](https://github.com/Shehanshah1/CryptoPals-Challenge-App)** | Cryptographic attack simulations with full UI & test suite | `C#` `.NET` `Cryptography` |
 | 🛒 **Vending Machine System** | OOP inventory platform with real-time file-based state tracking | `C++` `OOP` |
-| 🌐 **Islamic Center Website** | WordPress site that boosted donations by **50%** & automated event ops | `WordPress` `Web` |
+| 🌐 **[Islamic Center Website](https://ichattiesburg.org/)** | WordPress site that boosted donations by **50%** & automated event ops | `WordPress` `Web` |
+| 🌐 **[Mosque Times Portal](https://masjid-times.vercel.app/)** | Next.Js App site that boosted donations and automated time clock for TV | `Next.Js` `Web` |
 
 </div>
 
 ---
-
-## 🔬 Research — SPEN Lab @ USM
 
 <div align="center">
