@@ -9,7 +9,7 @@
 [![Profile Views](https://komarev.com/ghpvc/?username=Shehanshah1&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS)](https://github.com/Shehanshah1)
 [![Website](https://img.shields.io/badge/asjadrehman.com-0f0c29?style=for-the-badge&logo=firefox&logoColor=A78BFA)](https://www.asjadrehman.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/asjadrehman)
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Arbab_e_wafa)
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/a5jadrehman)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@MuhammadAsjadRehmanHashmi)
 
 </div>
