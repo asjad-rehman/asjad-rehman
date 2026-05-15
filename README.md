@@ -25,13 +25,17 @@ class AsjadRehman:
         self.university  = "University of Southern Mississippi"
         self.degrees     = ["B.S. Computer Science", "B.A. Political Science"]
         self.roles       = [
-            "Operations & Client Success Lead @ InfinixLeverage",
+            "Founder @ AegisSwarm",
+            "Operations & Client Success Director @ InfinixLeverage",
             "Vice President & Imam @ Islamic Center of Hattiesburg",
             "Complex Manager @ USM Union",
-            "President (×2) @ Muslim Student Association",
+            "IT Manager @ Madina Enterprises",
+            "Crew Leader @ Trent Lott National Center",
         ]
-        self.languages   = ["C#", "C++", "Python", "Java"]
-        self.frameworks  = [".NET MAUI", "XAML", "SQLite", "WordPress"]
+        self.languages   = ["C#", "C++", "Swift", "Python", "Java", "SQL", "HTML/CSS"]
+        self.frameworks  = [".NET MAUI", "ASP.NET Core", "SwiftUI", "iOS", "XAML",
+                            "SQLite", "SQL Server", "Docker", "React", "WordPress"]
+        self.certs       = ["CompTIA Security+", "CompTIA CySA+ (In Progress)"]
         self.focus       = ["Secure Software Design", "Privacy Tech", "Cyber Law & Ethics",
                             "Federated Learning", "Tech Policy", "AI Regulation"]
         self.philosophy  = "Code that ignores ethics isn't complete."
@@ -52,12 +56,22 @@ class AsjadRehman:
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 **Frameworks & Platforms**
 
-![.NET](https://img.shields.io/badge/.NET_MAUI-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![.NET MAUI](https://img.shields.io/badge/.NET_MAUI-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-0066CC?style=for-the-badge&logo=swift&logoColor=white)
+![Xcode](https://img.shields.io/badge/Xcode-147EFB?style=for-the-badge&logo=xcode&logoColor=white)
 ![XAML](https://img.shields.io/badge/XAML-0C54C2?style=for-the-badge&logo=xaml&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)
 
@@ -65,7 +79,12 @@ class AsjadRehman:
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-22A7F0?style=for-the-badge&logo=githubactions&logoColor=white)
+![Agile](https://img.shields.io/badge/Agile%2FScrum-009FDA?style=for-the-badge&logo=scrumalliance&logoColor=white)
 ![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![GoogleTest](https://img.shields.io/badge/GoogleTest-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
 **Research & Security**
@@ -76,6 +95,28 @@ class AsjadRehman:
 ![Cybersecurity](https://img.shields.io/badge/Cybersecurity-E63946?style=for-the-badge&logo=hackthebox&logoColor=white)
 
 </div>
+
+---
+
+## 🎓 Certifications
+
+<div align="center">
+
+[![Security+](https://img.shields.io/badge/CompTIA_Security%2B-C8202F?style=for-the-badge&logo=comptia&logoColor=white)](https://www.comptia.org/certifications/security)
+[![CySA+](https://img.shields.io/badge/CompTIA_CySA%2B_(In_Progress)-E03A3E?style=for-the-badge&logo=comptia&logoColor=white)](https://www.comptia.org/certifications/cybersecurity-analyst)
+
+</div>
+
+---
+
+## 💼 Experience Highlights
+
+- **Founder** — AegisSwarm
+- **Vice-President** — Islamic Center of Hattiesburg *(Dec 2025 – Present)*
+- **Operations & Client Success Director** — InfinixLeverage *(Dec 2025 – Present, Hybrid)*
+- **Complex Manager** — University of Southern Mississippi *(Aug 2025 – Present)*
+- **IT Manager** — Madina Enterprises *(Jun 2024 – Present)*
+- **Crew Leader** — Trent Lott National Center *(Jan 2025)*
 
 ---
 
@@ -90,6 +131,7 @@ class AsjadRehman:
 | 🛒 **Vending Machine System** | OOP inventory platform with real-time file-based state tracking | `C++` `OOP` |
 | 🌐 **[Islamic Center Website](https://ichattiesburg.org/)** | WordPress site that boosted donations by **50%** & automated event ops | `WordPress` `Web` |
 | 🌐 **[Mosque Times Portal](https://masjid-times.vercel.app/)** | Next.Js App site that boosted donations and automated time clock for TV | `Next.Js` `Web` |
+| 📱 **Sadd App** | Native iOS app — mindful habit-blocking & self-discipline tool built with SwiftUI | `Swift` `SwiftUI` `iOS` |
 
 </div>
 
