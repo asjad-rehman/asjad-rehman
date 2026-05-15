@@ -31,7 +31,6 @@ class AsjadRehman:
             "Complex Manager @ USM Union",
             "IT Manager @ Madina Enterprises",
             "Crew Leader @ Trent Lott National Center",
-            "President (×2) @ Muslim Student Association",
         ]
         self.languages   = ["C#", "C++", "Python", "Java", "SQL", "HTML/CSS"]
         self.frameworks  = [".NET MAUI", "ASP.NET Core", "XAML", "SQLite",
