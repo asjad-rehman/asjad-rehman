@@ -35,7 +35,7 @@ class AsjadRehman:
         self.languages   = ["C#", "C++", "Swift", "Python", "Java", "SQL", "HTML/CSS"]
         self.frameworks  = [".NET MAUI", "ASP.NET Core", "SwiftUI", "iOS", "XAML",
                             "SQLite", "SQL Server", "Docker", "React", "WordPress"]
-        self.certs       = ["CompTIA Security+", "CompTIA CySA+ (In Progress)"]
+        self.certs       = ["CompTIA Security+ (In Progress)", "CompTIA CySA+ (In Progress)"]
         self.focus       = ["Secure Software Design", "Privacy Tech", "Cyber Law & Ethics",
                             "Federated Learning", "Tech Policy", "AI Regulation"]
         self.philosophy  = "Code that ignores ethics isn't complete."
