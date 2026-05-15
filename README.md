@@ -25,6 +25,7 @@ class AsjadRehman:
         self.university  = "University of Southern Mississippi"
         self.degrees     = ["B.S. Computer Science", "B.A. Political Science"]
         self.roles       = [
+            "Founder @ AegisSwarm",
             "Operations & Client Success Director @ InfinixLeverage",
             "Vice President & Imam @ Islamic Center of Hattiesburg",
             "Complex Manager @ USM Union",
@@ -107,6 +108,7 @@ class AsjadRehman:
 
 ## 💼 Experience Highlights
 
+- **Founder** — AegisSwarm
 - **Vice-President** — Islamic Center of Hattiesburg *(Dec 2025 – Present)*
 - **Operations & Client Success Director** — InfinixLeverage *(Dec 2025 – Present, Hybrid)*
 - **Complex Manager** — University of Southern Mississippi *(Aug 2025 – Present)*
