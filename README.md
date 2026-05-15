@@ -102,7 +102,7 @@ class AsjadRehman:
 
 <div align="center">
 
-[![Security+](https://img.shields.io/badge/CompTIA_Security%2B_(In Progress)-C8202F?style=for-the-badge&logo=comptia&logoColor=white)](https://www.comptia.org/certifications/security)
+[![Security+](https://img.shields.io/badge/CompTIA_Security%2B_(In_Progress)-C8202F?style=for-the-badge&logo=comptia&logoColor=white)](https://www.comptia.org/certifications/security)
 [![CySA+](https://img.shields.io/badge/CompTIA_CySA%2B_(In_Progress)-E03A3E?style=for-the-badge&logo=comptia&logoColor=white)](https://www.comptia.org/certifications/cybersecurity-analyst)
 
 </div>
