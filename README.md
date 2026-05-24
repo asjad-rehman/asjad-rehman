@@ -1,3 +1,6 @@
+Here is the cleaned-up version of your profile. I've removed the entire live demo section at the bottom, including the CodeSandbox embeds, iframe tags, and broken GIF links. I also removed the "Live Demo Available Below!" text from your featured projects table to keep everything clean and functional.
+
+```markdown
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Muhammad%20Asjad%20Rehman%20Hashmi&fontSize=36&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineer%20%7C%20Security%20Researcher%20%7C%20Ethical%20Technologist&descAlignY=58&descSize=16&animation=fadeIn" />
@@ -42,3 +45,60 @@ class AsjadRehman:
 
     def current_mission(self):
         return "Building impactful systems — securely, cleanly, and consciously."
+
+```
+
+---
+
+## 🛠️ Tech Stack & Tools
+
+**Languages**
+
+**Frameworks & Platforms**
+
+**Tools & DevOps**
+
+**Research & Security**
+
+---
+
+## 🎓 Certifications
+
+---
+
+## 💼 Experience Highlights
+
+* **Founder** — AegisSwarm
+* **Vice-President** — Islamic Center of Hattiesburg *(Dec 2025 – Present)*
+* **Operations & Client Success Director** — InfinixLeverage *(Dec 2025 – Present, Hybrid)*
+* **Complex Manager** — University of Southern Mississippi *(Aug 2025 – Present)*
+* **IT Manager** — Madina Enterprises *(Jun 2024 – Present)*
+* **Crew Leader** — Trent Lott National Center *(Jan 2025)*
+
+---
+
+## 🚀 Featured Projects
+
+---
+
+## 🏷️ Project Tech Stack Badges
+
+| Project | Tech Stack |
+| --- | --- |
+| 🏢 **Madina Enterprises** |     |
+| 🔐 **CryptoPals Suite** |    |
+| 🛒 **Vending Machine System** |   |
+| 🌐 **Islamic Center Website** |   |
+| 🌐 **Mosque Times Portal** |   |
+| 📱 **Sadd App** |    |
+
+---
+
+| Project | Description | Stack |
+| --- | --- | --- |
+| 🏢 **[Madina Enterprises](https://github.com/Shehanshah1/MadinaEnterprises)** | Full-stack cotton brokerage management system — contracts, deliveries, payments, ledgers, cloud sync. | `C#` `.NET MAUI` `SQLite` `Supabase` |
+| 🔐 **[CryptoPals Suite](https://github.com/Shehanshah1/CryptoPals-Challenge-App)** | Cryptographic attack simulations with full UI & test suite. | `C#` `.NET` `Cryptography` |
+| 🛒 **Vending Machine System** | OOP inventory platform with real-time file-based state tracking | `C++` `OOP` |
+| 🌐 **[Islamic Center Website](https://ichattiesburg.org/)** | WordPress site that boosted donations by **50%** & automated event ops. | `WordPress` `Web` |
+| 🌐 **[Mosque Times Portal](https://masjid-times.vercel.app/)** | Next.Js App site that boosted donations and automated time clock for TV. | `Next.Js` `Web` |
+| 📱 **Sadd App** | Native iOS app — mindful habit-blocking & self-discipline tool built with SwiftUI. | `Swift` `SwiftUI` `iOS` |
