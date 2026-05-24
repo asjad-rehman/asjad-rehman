@@ -1,5 +1,3 @@
-Here is the cleaned-up version of your profile. I've removed the entire live demo section at the bottom, including the CodeSandbox embeds, iframe tags, and broken GIF links. I also removed the "Live Demo Available Below!" text from your featured projects table to keep everything clean and functional.
-
 ```markdown
 <div align="center">
 
