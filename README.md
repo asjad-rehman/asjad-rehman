@@ -124,14 +124,125 @@ class AsjadRehman:
 
 <div align="center">
 
+---
+
+## 🏷️ Project Tech Stack Badges
+
+<div align="center">
+
+| Project | Tech Stack |
+|:-------:|:----------:|
+| 🏢 **Madina Enterprises** | ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white) ![.NET MAUI](https://img.shields.io/badge/.NET_MAUI-512BD4?style=for-the-badge&logo=dotnet&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) |
+| 🔐 **CryptoPals Suite** | ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white) ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white) ![Cryptography](https://img.shields.io/badge/Cryptography-2D3748?style=for-the-badge&logo=letsencrypt&logoColor=white) |
+| 🛒 **Vending Machine System** | ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white) ![OOP](https://img.shields.io/badge/OOP-009FDA?style=for-the-badge&logo=code&logoColor=white) |
+| 🌐 **Islamic Center Website** | ![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white) ![Web](https://img.shields.io/badge/Web-0f0c29?style=for-the-badge&logo=firefox&logoColor=white) |
+| 🌐 **Mosque Times Portal** | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) ![Web](https://img.shields.io/badge/Web-0f0c29?style=for-the-badge&logo=firefox&logoColor=white) |
+| 📱 **Sadd App** | ![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white) ![SwiftUI](https://img.shields.io/badge/SwiftUI-0066CC?style=for-the-badge&logo=swift&logoColor=white) ![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white) |
+
+</div>
+
+---
+
 | Project | Description | Stack |
 |:-------:|:-----------:|:-----:|
-| 🏢 **[Madina Enterprises](https://github.com/Shehanshah1/MadinaEnterprises)** | Full-stack cotton brokerage management system — contracts, deliveries, payments, ledgers, cloud sync | `C#` `.NET MAUI` `SQLite` `Supabase` |
-| 🔐 **[CryptoPals Suite](https://github.com/Shehanshah1/CryptoPals-Challenge-App)** | Cryptographic attack simulations with full UI & test suite | `C#` `.NET` `Cryptography` |
+| 🏢 **[Madina Enterprises](https://github.com/Shehanshah1/MadinaEnterprises)** | Full-stack cotton brokerage management system — contracts, deliveries, payments, ledgers, cloud sync. **[Live Demo Available Below!](#-madina-enterprises--live-demo)** | `C#` `.NET MAUI` `SQLite` `Supabase` |
+| 🔐 **[CryptoPals Suite](https://github.com/Shehanshah1/CryptoPals-Challenge-App)** | Cryptographic attack simulations with full UI & test suite. **[Live Demo Available Below!](#-cryptopals-suite--live-demo)** | `C#` `.NET` `Cryptography` |
 | 🛒 **Vending Machine System** | OOP inventory platform with real-time file-based state tracking | `C++` `OOP` |
-| 🌐 **[Islamic Center Website](https://ichattiesburg.org/)** | WordPress site that boosted donations by **50%** & automated event ops | `WordPress` `Web` |
-| 🌐 **[Mosque Times Portal](https://masjid-times.vercel.app/)** | Next.Js App site that boosted donations and automated time clock for TV | `Next.Js` `Web` |
-| 📱 **Sadd App** | Native iOS app — mindful habit-blocking & self-discipline tool built with SwiftUI | `Swift` `SwiftUI` `iOS` |
+| 🌐 **[Islamic Center Website](https://ichattiesburg.org/)** | WordPress site that boosted donations by **50%** & automated event ops. **[Live Demo Available Below!](#-islamic-center-website--live-demo)** | `WordPress` `Web` |
+| 🌐 **[Mosque Times Portal](https://masjid-times.vercel.app/)** | Next.Js App site that boosted donations and automated time clock for TV. **[Live Demo Available Below!](#-mosque-times-portal--live-demo)** | `Next.Js` `Web` |
+| 📱 **Sadd App** | Native iOS app — mindful habit-blocking & self-discipline tool built with SwiftUI. **[Live Demo Available Below!](#-sadd-app--live-demo)** | `Swift` `SwiftUI` `iOS` |
+
+</div>
+
+<!-- Live Project Demos with CodeSandbox Embeds -->
+
+<div align="center">
+
+---
+
+> **Media Optimization:**
+> 
+> ⚡️ All demo GIFs are compressed for fast loading. For best performance:
+> - Use [ezgif.com](https://ezgif.com/optimize), [ImageMagick](https://imagemagick.org/), or [Gifsicle](https://www.lcdf.org/gifsicle/) to reduce GIF size.
+> - Prefer short, looping GIFs under 2MB, or use MP4/WebM for even faster loads (GitHub supports MP4 in markdown via HTML `<video>` tags).
+> - Replace GIFs with static screenshots if animation isn't essential.
+> - Store media in the `/assets` directory for CDN caching.
+
+---
+
+<!-- Example: Replace the URLs below with your actual CodeSandbox links if available -->
+
+### 🌐 Mosque Times Portal — Live Demo
+
+![Mosque Times Portal Demo](assets/demo-mosque-times.gif)
+
+[![Open in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/Shehanshah1/masjid-times)
+
+<iframe
+  src="https://codesandbox.io/embed/github/Shehanshah1/masjid-times?fontsize=14&hidenavigation=1&theme=dark"
+  style="width:100%; height:500px; border:0; border-radius: 8px; overflow:hidden; margin-top: 10px;"
+  title="Mosque Times Portal Live Demo"
+  allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+  sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+></iframe>
+
+### 🌐 Islamic Center Website — Live Demo
+
+![Islamic Center Website Demo](assets/demo-islamic-center.gif)
+
+[![Open in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/Shehanshah1/islamic-center-website)
+
+<iframe
+  src="https://codesandbox.io/embed/github/Shehanshah1/islamic-center-website?fontsize=14&hidenavigation=1&theme=dark"
+  style="width:100%; height:500px; border:0; border-radius: 8px; overflow:hidden; margin-top: 10px;"
+  title="Islamic Center Website Live Demo"
+  allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+  sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+></iframe>
+
+### 🔐 CryptoPals Suite — Live Demo
+
+![CryptoPals Suite Demo](assets/demo-cryptopals.gif)
+
+[![Open in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/Shehanshah1/CryptoPals-Challenge-App)
+
+<iframe
+  src="https://codesandbox.io/embed/github/Shehanshah1/CryptoPals-Challenge-App?fontsize=14&hidenavigation=1&theme=dark"
+  style="width:100%; height:500px; border:0; border-radius: 8px; overflow:hidden; margin-top: 10px;"
+  title="CryptoPals Suite Live Demo"
+  allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+  sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+></iframe>
+
+### 📱 Sadd App — Live Demo
+
+![Sadd App Demo](assets/demo-sadd-app.gif)
+
+[![Open in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/Shehanshah1/sadd-app)
+
+<iframe
+  src="https://codesandbox.io/embed/github/Shehanshah1/sadd-app?fontsize=14&hidenavigation=1&theme=dark"
+  style="width:100%; height:500px; border:0; border-radius: 8px; overflow:hidden; margin-top: 10px;"
+  title="Sadd App Live Demo"
+  allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+  sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+></iframe>
+
+### 🏢 Madina Enterprises — Live Demo
+
+![Madina Enterprises Demo](assets/demo-madina-enterprises.gif)
+
+[![Open in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/Shehanshah1/MadinaEnterprises)
+
+<iframe
+  src="https://codesandbox.io/embed/github/Shehanshah1/MadinaEnterprises?fontsize=14&hidenavigation=1&theme=dark"
+  style="width:100%; height:500px; border:0; border-radius: 8px; overflow:hidden; margin-top: 10px;"
+  title="Madina Enterprises Live Demo"
+  allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+  sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+></iframe>
+
+<!-- Add more embeds below as you create public sandboxes for other projects -->
 
 </div>
 
