@@ -17,7 +17,7 @@
 </div>
 
 <br/>
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/purple.png" width="100%">
+---
 <br/>
 
 ## 👨🏻‍💻 About Me
@@ -103,7 +103,7 @@ if __name__ == '__main__':
 </details>
 
 <br/>
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/purple.png" width="100%">
+---
 <br/>
 
 <div align="center">
@@ -140,7 +140,7 @@ if __name__ == '__main__':
 </div>
 
 <br/>
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/purple.png" width="100%">
+---
 <br/>
 
 ## 💻 Featured Projects
@@ -157,7 +157,7 @@ if __name__ == '__main__':
 | 📱 **Sadd App** | Native iOS app — mindful habit-blocking & self-discipline tool built with SwiftUI. | `Swift` `SwiftUI` `iOS` |
 
 <br/>
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/purple.png" width="100%">
+---
 <br/>
 
 ## 📈 GitHub Analytics
@@ -179,7 +179,7 @@ if __name__ == '__main__':
 </div>
 
 <br/>
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/purple.png" width="100%">
+---
 <br/>
 
 <div align="center">
