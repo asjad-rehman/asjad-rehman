@@ -66,12 +66,14 @@ class AsjadRehman:
 
 | 🏆 Project | 📝 Description | 🛠️ Tech Stack |
 | :--- | :--- | :--- |
+| 💎 **[Elite da Parfum](https://github.com/asjad-rehman/elite-da-parfum)** | High-performance luxury e-commerce platform for premium fragrances. | `React` `TypeScript` `Node.js` `PostgreSQL` |
+| 📱 **[Sadd App](https://github.com/asjad-rehman/Sadd)** | Phone-discipline iOS app with screen-time blocking & halal accountability. | `Swift` `SwiftUI` `Supabase` `iOS` |
+| 🤖 **[InfinixLeverage](https://github.com/asjad-rehman/Infinixleverage)** | AI-powered customer support and automated inbound/outbound calling platform. | `JavaScript` `Three.js` `Vercel` |
 | 🏢 **[Madina Enterprises](https://github.com/asjad-rehman/MadinaEnterprises)** | Full-stack cotton brokerage management system. Contracts, ledgers, & cloud sync. | `C#` `.NET MAUI` `SQLite` `Supabase` |
 | 🔐 **[CryptoPals Suite](https://github.com/asjad-rehman/CryptoPals-Challenge-App)** | Cryptographic attack simulations with a full UI & testing suite. | `C#` `.NET` `Cryptography` |
-| 🛒 **Vending Machine System** | OOP inventory platform with real-time file-based state tracking. | `C++` `OOP` |
+| ✍️ **[asjadrehman.com](https://github.com/asjad-rehman/asjadrehman-site)** | Personal digital notebook of essays, code, and revolutionary thought. | `Next.js` `Tailwind` `MDX` |
 | 🌐 **[Islamic Center Website](https://ichattiesburg.org/)** | Platform that boosted donations by **50%** & automated ops. | `WordPress` `Web` |
 | 🌐 **[Mosque Times Portal](https://masjid-times.vercel.app/)** | Display portal that automated the time clock for TV displays. | `Next.Js` `React` |
-| 📱 **Sadd App** | Native iOS app — mindful habit-blocking & self-discipline tool. | `Swift` `SwiftUI` `iOS` |
 
 ---
 
