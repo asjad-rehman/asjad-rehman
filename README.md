@@ -1,10 +1,11 @@
+<!-- BEAST MODE HEADER -->
 <div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=250&section=header&text=Muhammad%20Asjad%20Rehman&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineer%20%7C%20Security%20Researcher%20%7C%20Ethical%20Technologist&descAlignY=58&descSize=16&animation=twinkling" width="100%" />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=250&section=header&text=Muhammad%20Asjad%20Rehman&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineer%20%7C%20Security%20Researcher%20%7C%20Ethical%20Technologist&descAlignY=58&descSize=16&animation=fadeIn" width="100%" />
+  <br><br>
 
-<br/>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=Building+secure+systems+from+the+ground+up;Researching+IoT+%26+Internet+of+Drones+privacy;Where+code+meets+ethics+%E2%80%94+that's+my+lane;C%23+%7C+C%2B%2B+%7C+Python+%7C+.NET+MAUI;Pre-Law+%C3%97+CS+%E2%80%94+Tech+Policy+is+the+future)](https://github.com/asjad-rehman)
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=Building+secure+systems+from+the+ground+up;Researching+IoT+%26+Internet+of+Drones+privacy;Where+code+meets+ethics+%E2%80%94+that's+my+lane;C%23+%7C+C%2B%2B+%7C+Python+%7C+.NET+MAUI;Pre-Law+%C3%97+CS+%E2%80%94+Tech+Policy+is+the+future)](https://github.com/asjad-rehman)
+</div>
 
 <p align="center">
   <a href="https://www.asjadrehman.com"><img src="https://img.shields.io/badge/Website-0f0c29?style=for-the-badge&logo=firefox&logoColor=A78BFA" alt="Website" /></a>
@@ -13,45 +14,58 @@
   <a href="https://youtube.com/@MuhammadAsjadRehmanHashmi"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" /></a>
 </p>
 
-</div>
-
 ---
 
-### 👨🏻‍💻 About Me
+<div align="center">
+  <h3><code>System.out.println("Hello, World!");</code></h3>
+</div>
+
+### 👨🏻‍💻 Terminal Profile
 
 ```python
+import security
+import engineering
+
 class AsjadRehman:
     def __init__(self):
         self.name        = "Muhammad Asjad Rehman Hashmi"
         self.education   = ["B.S. Computer Science", "B.A. Political Science"]
         self.focus       = ["Secure Software Design", "Privacy Tech", "Cyber Law & Ethics"]
         
+    def execute_mission(self):
+        return "Building impactful systems — securely, cleanly, and consciously."
+        
     def get_philosophy(self):
         return "Code that ignores ethics isn't complete."
+
+if __name__ == "__main__":
+    profile = AsjadRehman()
+    profile.execute_mission()
 ```
 
-* 🔭 **Currently working on:** Full-stack systems like [Madina Enterprises](https://github.com/asjad-rehman/MadinaEnterprises)
-* 🌱 **Currently learning:** CompTIA Security+ & CompTIA CySA+
-* 👯 **Open to collaborate on:** Privacy Tech, Federated Learning, & Open Source Security
-* 📫 **Reach me:** [contact@asjadrehman.com](mailto:contact@asjadrehman.com)
+> 🔭 **Currently working on:** Full-stack systems like [Madina Enterprises](https://github.com/asjad-rehman/MadinaEnterprises)  
+> 🌱 **Currently learning:** CompTIA Security+ & CompTIA CySA+  
+> 👯 **Open to collaborate on:** Privacy Tech, Federated Learning, & Open Source Security  
+> 📫 **Reach me:** [contact@asjadrehman.com](mailto:contact@asjadrehman.com)  
 
 ---
 
-### 🛠️ Tech Stack & Tools
+### 🚀 Technology Arsenal
 
 <div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=cs,cpp,swift,py,java,html,css&theme=dark" />
-    <br><br>
-    <img src="https://skillicons.dev/icons?i=dotnet,react,nextjs,wordpress,apple&theme=dark" />
-    <br><br>
-    <img src="https://skillicons.dev/icons?i=docker,sqlite,mysql,git,supabase&theme=dark" />
-  </a>
+  <i>Languages & Core</i><br>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=cs,cpp,swift,py,java,html,css&theme=dark" /></a>
+  
+  <br><br><i>Frameworks & Ecosystems</i><br>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=dotnet,react,nextjs,wordpress,apple&theme=dark" /></a>
+  
+  <br><br><i>Infrastructure & Databases</i><br>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=docker,sqlite,mysql,postgres,git,supabase&theme=dark" /></a>
 </div>
 
 ---
 
-### 💼 Experience & Leadership
+### 💼 Operational Directives
 
 * 🚀 **Founder** @ AegisSwarm
 * 🕌 **Vice-President** @ Islamic Center of Hattiesburg
@@ -62,7 +76,7 @@ class AsjadRehman:
 
 ---
 
-### 💻 Featured Projects
+### 💻 Flagship Projects
 
 | 🏆 Project | 📝 Description | 🛠️ Tech Stack |
 | :--- | :--- | :--- |
@@ -78,5 +92,7 @@ class AsjadRehman:
 ---
 
 <div align="center">
-  <i>Let's connect and build something awesome together! 🚀</i>
+  <i>System executing... EOF.</i>
+  <br>
+  <b>Let's build something revolutionary together! 🚀</b>
 </div>
