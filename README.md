@@ -1,10 +1,10 @@
 <!-- BEAST MODE HEADER -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=260&section=header&text=Muhammad%20Asjad%20Rehman&fontSize=44&fontColor=ffffff&fontAlignY=35&desc=Software%20Engineer%20%7C%20Security%20Researcher%20%7C%20Ethical%20Technologist&descAlignY=55&descSize=17&animation=twinkling" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=260&section=header&text=Muhammad%20Asjad%20Rehman&fontSize=44&fontColor=ffffff&fontAlignY=35&desc=Founder%20%7C%20Software%20Engineer%20%7C%20Security%20Researcher&descAlignY=55&descSize=17&animation=twinkling" width="100%" />
 
   <br>
 
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=Building+secure+systems+from+the+ground+up;Researching+IoT+%26+Internet+of+Drones+privacy;Where+code+meets+ethics+%E2%80%94+that's+my+lane;C%23+%7C+C%2B%2B+%7C+Python+%7C+.NET+MAUI;Pre-Law+%C3%97+CS+%E2%80%94+Tech+Policy+is+the+future)](https://github.com/asjad-rehman)
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=A78BFA&center=true&vCenter=true&width=760&lines=Founder+%40+Sadd+Tech+LLC%2C+Estrah%2C+%26+Aegis+Swarm;Building+secure+systems+from+the+ground+up;Researching+IoT+%26+Internet+of+Drones+privacy;Where+code+meets+ethics+%E2%80%94+that's+my+lane;C%23+%7C+C%2B%2B+%7C+Python+%7C+.NET+MAUI;Pre-Law+%C3%97+CS+%E2%80%94+Tech+Policy+is+the+future)](https://github.com/asjad-rehman)
 
   <br>
 
@@ -17,7 +17,6 @@
   <br><br>
 
   <img src="https://komarev.com/ghpvc/?username=asjad-rehman&label=Profile%20Views&color=a78bfa&style=for-the-badge" alt="profile views" />
-
 </div>
 
 <br>
@@ -26,8 +25,36 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:24243e,100:302b63&height=2&width=1000" />
 </div>
 
+## 🏢 Ventures I've Founded
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3 align="center">🛡️ Aegis Swarm</h3>
+      <p align="center"><i>Security &amp; systems studio — building defensive tooling and secure-by-design software.</i></p>
+      <p align="center">
+        <a href="https://aegisswarm.com"><img src="https://img.shields.io/badge/Visit-aegisswarm.com-0f0c29?style=for-the-badge&logo=shield&logoColor=A78BFA" /></a>
+      </p>
+    </td>
+    <td width="33%" valign="top">
+      <h3 align="center">🌙 Estrah</h3>
+      <p align="center"><i>Building products at the intersection of faith, technology, and everyday discipline.</i></p>
+      <p align="center">
+        <a href="https://estrah.com"><img src="https://img.shields.io/badge/Visit-estrah.com-0f0c29?style=for-the-badge&logo=starship&logoColor=A78BFA" /></a>
+      </p>
+    </td>
+    <td width="33%" valign="top">
+      <h3 align="center">📱 Sadd Tech LLC</h3>
+      <p align="center"><i>Maker of <a href="https://github.com/asjad-rehman/Sadd">Sadd</a> — phone-discipline &amp; halal-accountability apps for iOS.</i></p>
+      <p align="center">
+        <a href="https://github.com/asjad-rehman/Sadd"><img src="https://img.shields.io/badge/GitHub-Sadd-0f0c29?style=for-the-badge&logo=apple&logoColor=A78BFA" /></a>
+      </p>
+    </td>
+  </tr>
+</table>
+
 <div align="center">
-  <h3><code>System.out.println("Hello, World!");</code></h3>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:24243e,100:302b63&height=2&width=1000" />
 </div>
 
 ### 👨🏻‍💻 Terminal Profile
@@ -35,15 +62,17 @@
 ```python
 import security
 import engineering
+import entrepreneurship
 
 class AsjadRehman:
     def __init__(self):
         self.name        = "Muhammad Asjad Rehman Hashmi"
         self.education   = ["B.S. Computer Science", "B.A. Political Science"]
+        self.founded     = ["Sadd Tech LLC", "Estrah", "Aegis Swarm"]
         self.focus       = ["Secure Software Design", "Privacy Tech", "Cyber Law & Ethics"]
 
     def execute_mission(self):
-        return "Building impactful systems — securely, cleanly, and consciously."
+        return "Building companies and systems — securely, cleanly, and consciously."
 
     def get_philosophy(self):
         return "Code that ignores ethics isn't complete."
@@ -57,6 +86,21 @@ if __name__ == "__main__":
 > 🌱 **Currently learning:** CompTIA Security+ & CompTIA CySA+
 > 👯 **Open to collaborate on:** Privacy Tech, Federated Learning, & Open Source Security
 > 📫 **Reach me:** [contact@asjadrehman.com](mailto:contact@asjadrehman.com)
+
+---
+
+### 💼 Roles & Leadership
+
+| 🏢 Organization | 🎖️ Role |
+| :--- | :--- |
+| [Aegis Swarm](https://aegisswarm.com) | 🚀 Founder |
+| [Estrah](https://estrah.com) | 🚀 Founder |
+| Sadd Tech LLC | 🚀 Founder |
+| Islamic Center of Hattiesburg | 🕌 Vice-President |
+| InfinixLeverage | 📈 Operations Director |
+| USM Union | 🏢 Complex Manager |
+| Madina Enterprises | 💻 IT Manager |
+| Trent Lott National Center | 🌟 Crew Leader |
 
 ---
 
@@ -96,23 +140,12 @@ if __name__ == "__main__":
 
 ---
 
-### 💼 Operational Directives
-
-* 🚀 **Founder** @ AegisSwarm
-* 🕌 **Vice-President** @ Islamic Center of Hattiesburg
-* 📈 **Operations Director** @ InfinixLeverage
-* 🏢 **Complex Manager** @ USM Union
-* 💻 **IT Manager** @ Madina Enterprises
-* 🌟 **Crew Leader** @ Trent Lott National Center
-
----
-
 ### 💻 Flagship Projects
 
 | 🏆 Project | 📝 Description | 🛠️ Tech Stack |
 | :--- | :--- | :--- |
+| 📱 **[Sadd App](https://github.com/asjad-rehman/Sadd)** | Phone-discipline iOS app with screen-time blocking & halal accountability — flagship product of **Sadd Tech LLC**. | `Swift` `SwiftUI` `Supabase` `iOS` |
 | 💎 **[Elite da Parfum](https://github.com/asjad-rehman/elite-da-parfum)** | High-performance luxury e-commerce platform for premium fragrances. | `React` `TypeScript` `Node.js` `PostgreSQL` |
-| 📱 **[Sadd App](https://github.com/asjad-rehman/Sadd)** | Phone-discipline iOS app with screen-time blocking & halal accountability. | `Swift` `SwiftUI` `Supabase` `iOS` |
 | 🤖 **[InfinixLeverage](https://github.com/asjad-rehman/Infinixleverage)** | AI-powered customer support and automated inbound/outbound calling platform. | `JavaScript` `Three.js` `Vercel` |
 | 🏢 **[Madina Enterprises](https://github.com/asjad-rehman/MadinaEnterprises)** | Full-stack cotton brokerage management system. Contracts, ledgers, & cloud sync. | `C#` `.NET MAUI` `SQLite` `Supabase` |
 | 🔐 **[CryptoPals Suite](https://github.com/asjad-rehman/CryptoPals-Challenge-App)** | Cryptographic attack simulations with a full UI & testing suite. | `C#` `.NET` `Cryptography` |
