@@ -1,15 +1,13 @@
-<!-- BEAST MODE HEADER -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=280&section=header&text=Muhammad%20Asjad%20Rehman&fontSize=46&fontColor=ffffff&fontAlignY=33&desc=Founder%20%7C%20Software%20Engineer%20%7C%20Security%20Researcher&descAlignY=52&descSize=17&animation=twinkling" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=280&section=header&text=Muhammad%20Asjad%20Rehman%20Hashmi&fontSize=40&fontColor=ffffff&fontAlignY=33&desc=Autonomous%20Systems%20%C3%97%20Social%20Enterprise%20%C3%97%20Tech%20Theology&descAlignY=52&descSize=17&animation=twinkling" width="100%" />
 
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=A78BFA&center=true&vCenter=true&width=780&lines=Founder+%40+Sadd+Tech+LLC%2C+Estrah%2C+%26+Aegis+Swarm;Building+secure+systems+from+the+ground+up;Researching+IoT+%26+Internet+of+Drones+privacy;Where+code+meets+ethics+%E2%80%94+that's+my+lane;C%23+%7C+C%2B%2B+%7C+Python+%7C+.NET+MAUI;Pre-Law+%C3%97+CS+%E2%80%94+Tech+Policy+is+the+future)](https://github.com/asjad-rehman)
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=A78BFA&center=true&vCenter=true&width=800&lines=Building+defensible+autonomous+systems;Scaling+social+enterprises+from+zero;Thinking+through+the+theology+of+technology;Founder+%C3%973+%7C+YC+S26+Applicant;CS+%2B+Political+Science%2C+USM+%E2%80%9927;96.8%25+mAP%4050+on+edge+drone+detection)](https://asjadrehman.com)
 
   <p>
-    <a href="https://www.asjadrehman.com"><img src="https://img.shields.io/badge/Website-0f0c29?style=for-the-badge&logo=firefox&logoColor=A78BFA" alt="Website" /></a>
-    <a href="https://linkedin.com/in/asjadrehman"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-    <a href="https://x.com/a5jadrehman"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
-    <a href="https://youtube.com/@MuhammadAsjadRehmanHashmi"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" /></a>
-    <a href="mailto:contact@asjadrehman.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+    <a href="https://asjadrehman.com"><img src="https://img.shields.io/badge/Website-0f0c29?style=for-the-badge&logo=firefox&logoColor=A78BFA" alt="Website" /></a>
+    <a href="https://linkedin.com/in/asjad-rehman"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="mailto:MuhammadAsjad.RehmanHashmi@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+    <a href="tel:571-447-6997"><img src="https://img.shields.io/badge/Phone-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Phone" /></a>
   </p>
 
   <img src="https://komarev.com/ghpvc/?username=asjad-rehman&label=Profile%20Views&color=a78bfa&style=for-the-badge" alt="profile views" />
@@ -17,47 +15,74 @@
   <br><br>
 
   <img src="https://img.shields.io/badge/3x-Founder-A78BFA?style=for-the-badge&labelColor=0f0c29" />
-  <img src="https://img.shields.io/badge/2x-Degrees%20(CS%20%26%20Poli%20Sci)-A78BFA?style=for-the-badge&labelColor=0f0c29" />
-  <img src="https://img.shields.io/badge/6+-Leadership%20Roles-A78BFA?style=for-the-badge&labelColor=0f0c29" />
-  <img src="https://img.shields.io/badge/8+-Shipped%20Projects-A78BFA?style=for-the-badge&labelColor=0f0c29" />
+  <img src="https://img.shields.io/badge/5x-President's%20List-A78BFA?style=for-the-badge&labelColor=0f0c29" />
+  <img src="https://img.shields.io/badge/YC-S26%20Applicant-A78BFA?style=for-the-badge&labelColor=0f0c29" />
+  <img src="https://img.shields.io/badge/Cato%20Institute-Summer%20Fellow-A78BFA?style=for-the-badge&labelColor=0f0c29" />
 </div>
 
 <br>
 
 <p align="center">
-  <a href="#-ventures-ive-founded">Ventures</a> ·
-  <a href="#-roles--leadership">Leadership</a> ·
+  <a href="#-flagship-ventures">Ventures</a> ·
+  <a href="#-aegisswarm-in-numbers">AegisSwarm Metrics</a> ·
+  <a href="#-leadership--service">Leadership</a> ·
   <a href="#-technology-arsenal">Tech Stack</a> ·
-  <a href="#-github-analytics">Analytics</a> ·
-  <a href="#-flagship-projects">Projects</a> ·
-  <a href="#-lets-connect">Contact</a>
+  <a href="#-intellectual-work">Research</a> ·
+  <a href="#-lets-talk">Contact</a>
 </p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:302b63,100:24243e&height=3&width=1000" />
 </div>
 
-## 🏢 Ventures I've Founded
+## 🚀 Flagship Ventures
 
 <table>
   <tr>
-    <td width="33%" valign="top" align="center">
-      <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1442,100:302b63&height=60&width=100%25&text=AEGIS%20SWARM&fontColor=A78BFA&fontSize=18&fontAlignY=55" width="100%" /><br>
-      <sub>🛡️ <b>Security & Systems Studio</b></sub>
-      <p><i>Defensive tooling and secure-by-design software for teams who take privacy seriously.</i></p>
+    <td width="50%" valign="top">
+      <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1442,100:302b63&height=60&width=100%25&text=AEGISSWARM&fontColor=A78BFA&fontSize=20&fontAlignY=55" width="100%" /><br>
+      <b>🛡️ Counter-Drone Detection</b><br>
+      Real-time UAV detection at the edge — YOLOv8-nano on a Raspberry Pi 5, driving a 5-DOF servo turret for live tracking.
+      <ul>
+        <li><b>96.8%</b> mAP@50 · <b>94.1%</b> precision · <b>95.3%</b> recall on 9,495 labeled images</li>
+        <li>Customer pipeline: Camp Shelby DPTMS, MSU Raspet Lab, Keesler AFB, MS DPS</li>
+        <li><code>Python</code> <code>OpenCV</code> <code>YOLOv8</code> <code>Raspberry Pi 5</code> <code>AWS</code> <code>FastAPI</code></li>
+      </ul>
       <a href="https://aegisswarm.com"><img src="https://img.shields.io/badge/Visit-aegisswarm.com-0f0c29?style=for-the-badge&logo=shieldsdotio&logoColor=A78BFA" /></a>
     </td>
-    <td width="33%" valign="top" align="center">
-      <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1442,100:302b63&height=60&width=100%25&text=ESTRAH&fontColor=A78BFA&fontSize=18&fontAlignY=55" width="100%" /><br>
-      <sub>🌙 <b>Faith × Technology</b></sub>
-      <p><i>Products at the intersection of faith, technology, and everyday discipline.</i></p>
-      <a href="https://estrah.com"><img src="https://img.shields.io/badge/Visit-estrah.com-0f0c29?style=for-the-badge&logo=starship&logoColor=A78BFA" /></a>
+    <td width="50%" valign="top">
+      <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1442,100:302b63&height=60&width=100%25&text=ESTRAH&fontColor=A78BFA&fontSize=20&fontAlignY=55" width="100%" /><br>
+      <b>🌙 Organic Cotton Textiles</b><br>
+      GOTS + OCS + OEKO-TEX certified supply chain scaling from manufacturing partnerships into the US market — B2B wholesale and luxury DTC.
+      <ul>
+        <li>Running shorts, sports bras, hoodies in active development</li>
+        <li>F-1 compliant commission-based operator structure</li>
+        <li><code>Next.js</code> <code>Supabase</code> <code>Stripe</code> <code>Email Infra</code></li>
+      </ul>
+      <a href="https://supply.estrah.com"><img src="https://img.shields.io/badge/Visit-supply.estrah.com-0f0c29?style=for-the-badge&logo=leaflet&logoColor=A78BFA" /></a>
     </td>
-    <td width="33%" valign="top" align="center">
-      <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1442,100:302b63&height=60&width=100%25&text=SADD%20TECH%20LLC&fontColor=A78BFA&fontSize=18&fontAlignY=55" width="100%" /><br>
-      <sub>📱 <b>Mobile Wellbeing</b></sub>
-      <p><i>Maker of <a href="https://github.com/asjad-rehman/Sadd">Sadd</a> — phone-discipline & halal-accountability apps for iOS.</i></p>
-      <a href="https://github.com/asjad-rehman/Sadd"><img src="https://img.shields.io/badge/GitHub-Sadd-0f0c29?style=for-the-badge&logo=apple&logoColor=A78BFA" /></a>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1442,100:302b63&height=60&width=100%25&text=CONFER%20%2F%20SADD&fontColor=A78BFA&fontSize=20&fontAlignY=55" width="100%" /><br>
+      <b>📱 Donation Kiosk + Phone Discipline</b><br>
+      iPad/Stripe Terminal M2 kiosk live at the Islamic Center of Hattiesburg, paired with an iOS accountability + Sadaqah automation app.
+      <ul>
+        <li>Confer: $0 monthly minimums, negotiated Finix/Fiserv, MCC 8398 nonprofit routing</li>
+        <li>Sadd: Niyyah Gate, Sadaqah-on-Slip, Halaqa groups, Screen Time blocking</li>
+        <li><code>SwiftUI</code> <code>iOS 17+</code> <code>Supabase</code> <code>RevenueCat</code> <code>Aladhan API</code> <code>Quran.com API</code></li>
+      </ul>
+      <a href="https://sadd.app"><img src="https://img.shields.io/badge/Visit-sadd.app-0f0c29?style=for-the-badge&logo=apple&logoColor=A78BFA" /></a>
+    </td>
+    <td width="50%" valign="top">
+      <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1442,100:302b63&height=60&width=100%25&text=INFINIXLEVERAGE&fontColor=A78BFA&fontSize=20&fontAlignY=55" width="100%" /><br>
+      <b>☎️ AI Call Agents</b><br>
+      Voice AI for hospitality and e-commerce, live with real customers and backed by a rigorous call-quality evaluation framework.
+      <ul>
+        <li>Live with New South Restaurant Group and Kalalou.com</li>
+        <li>495-lead Mississippi/Louisiana outreach pipeline</li>
+        <li><code>Voice AI</code> <code>Evaluation Frameworks</code></li>
+      </ul>
     </td>
   </tr>
 </table>
@@ -66,39 +91,52 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:302b63,100:24243e&height=3&width=1000" />
 </div>
 
+## 📡 AegisSwarm in Numbers
+
+<div align="center">
+
+| Metric | Value |
+| :--- | :---: |
+| mAP@50 | **96.8%** |
+| Precision | **94.1%** |
+| Recall | **95.3%** |
+| Training images | **9,495** |
+| YC Status | **S26 Submitted** |
+| AWS Activate | **Approved ($1K credits)** |
+| MS-FAST Phase 0 | **Funded ($3K)** |
+
+</div>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:302b63,100:24243e&height=3&width=1000" />
+</div>
+
 ### 👨🏻‍💻 Terminal Profile
 
 ```python
-import security
-import engineering
-import entrepreneurship
-
 class AsjadRehman:
     def __init__(self):
-        self.name        = "Muhammad Asjad Rehman Hashmi"
-        self.education   = ["B.S. Computer Science", "B.A. Political Science"]
-        self.founded     = ["Aegis Swarm", "Estrah", "Sadd Tech LLC"]
-        self.focus       = ["Secure Software Design", "Privacy Tech", "Cyber Law & Ethics"]
+        self.name      = "Muhammad Asjad Rehman Hashmi"
+        self.education = ["B.S. Computer Science", "B.A. Political Science — USM, Spring 2027"]
+        self.founded   = ["AegisSwarm", "Estrah", "Confer / Sadd Tech"]
+        self.roles     = ["VP, Islamic Center of Hattiesburg", "Cato Institute Summer Fellow"]
+        self.focus     = ["Edge ML for defense/critical infra", "Ethical supply chains", "Islamic political theology"]
 
-    def execute_mission(self):
-        return "Building companies and systems — securely, cleanly, and consciously."
-
-    def get_philosophy(self):
-        return "Code that ignores ethics isn't complete."
+    def mission(self):
+        return "Build defensible autonomous systems and scale social enterprises — without losing the theology."
 
 if __name__ == "__main__":
-    profile = AsjadRehman()
-    profile.execute_mission()
+    AsjadRehman().mission()
 ```
 
 <table>
 <tr>
 <td>
 
-🔭 **Currently working on:** Full-stack systems like [Madina Enterprises](https://github.com/asjad-rehman/MadinaEnterprises)
-🌱 **Currently learning:** CompTIA Security+ & CompTIA CySA+
-👯 **Open to collaborate on:** Privacy Tech, Federated Learning, & Open Source Security
-📫 **Reach me:** [contact@asjadrehman.com](mailto:contact@asjadrehman.com)
+🔭 **Currently building:** AegisSwarm counter-drone detection, Estrah's US distributor pipeline, and the Sadd/Confer donation stack
+🌱 **Currently researching:** Religiosity & political participation, Islamic jurisprudence (Hanafi), tariffs & IEEPA authority
+👯 **Open to:** Customer intros for AegisSwarm, manufacturing partners for Estrah, senior engineering roles (startup-stage, policy-adjacent, EB-1C path)
+📫 **Reach me:** [MuhammadAsjad.RehmanHashmi@gmail.com](mailto:MuhammadAsjad.RehmanHashmi@gmail.com)
 
 </td>
 </tr>
@@ -108,45 +146,44 @@ if __name__ == "__main__":
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:302b63,100:24243e&height=3&width=1000" />
 </div>
 
-### 💼 Roles & Leadership
+## 🕌 Leadership & Service
 
 <table>
   <tr><th align="left">🏢 Organization</th><th align="left">🎖️ Role</th></tr>
-  <tr><td><a href="https://aegisswarm.com">Aegis Swarm</a></td><td>🚀 <b>Founder</b></td></tr>
+  <tr><td><a href="https://aegisswarm.com">AegisSwarm</a></td><td>🚀 <b>Founder</b></td></tr>
   <tr><td><a href="https://estrah.com">Estrah</a></td><td>🚀 <b>Founder</b></td></tr>
-  <tr><td>Sadd Tech LLC</td><td>🚀 <b>Founder</b></td></tr>
-  <tr><td>Islamic Center of Hattiesburg</td><td>🕌 Vice-President</td></tr>
-  <tr><td>InfinixLeverage</td><td>📈 Operations Director</td></tr>
-  <tr><td>USM Union</td><td>🏢 Complex Manager</td></tr>
-  <tr><td>Madina Enterprises</td><td>💻 IT Manager</td></tr>
-  <tr><td>Trent Lott National Center</td><td>🌟 Crew Leader</td></tr>
+  <tr><td><a href="https://sadd.app">Confer / Sadd Tech</a></td><td>🚀 <b>Founder</b></td></tr>
+  <tr><td><a href="https://ichattiesburg.org">Islamic Center of Hattiesburg</a></td><td>🕌 <b>Vice President</b></td></tr>
+  <tr><td>Muslim Student Association (USM)</td><td>🌙 Outgoing President</td></tr>
+  <tr><td>USM Union Complex</td><td>🏢 Complex Manager</td></tr>
+  <tr><td>Cato Institute</td><td>📜 Summer Fellow</td></tr>
 </table>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:302b63,100:24243e&height=3&width=1000" />
 </div>
 
-### 🚀 Technology Arsenal
+## 🛠️ Technology Arsenal
 
 <div align="center">
-  <i>Languages & Core</i><br>
-  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=cs,cpp,swift,py,java,html,css&theme=dark" /></a>
+  <i>Backend / Full-Stack</i><br>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nodejs,python,ts,fastapi,supabase,postgres,aws,firebase,cpp,dotnet&theme=dark" /></a>
 
-  <br><br><i>Frameworks & Ecosystems</i><br>
-  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=dotnet,react,nextjs,wordpress,apple&theme=dark" /></a>
+  <br><br><i>Frontend</i><br>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=react,nextjs,swift,tailwind,stripe,html&theme=dark" /></a>
 
-  <br><br><i>Infrastructure & Databases</i><br>
-  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=docker,sqlite,mysql,postgres,git,supabase&theme=dark" /></a>
+  <br><br><i>ML / Computer Vision</i><br>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=pytorch,opencv,py&theme=dark" /></a>
 
-  <br><br><i>Security & Tooling</i><br>
-  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=vscode,linux,github,githubactions,figma,vercel&theme=dark" /></a>
+  <br><br><i>DevOps / Infrastructure</i><br>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=aws,vercel,cloudflare,githubactions,docker,supabase&theme=dark" /></a>
 </div>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:302b63,100:24243e&height=3&width=1000" />
 </div>
 
-### 📊 GitHub Analytics
+## 📊 GitHub Analytics
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=asjad-rehman&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=A78BFA&icon_color=A78BFA&text_color=c9d1d9" height="165" alt="GitHub stats" />
@@ -159,36 +196,15 @@ if __name__ == "__main__":
 </div>
 
 <div align="center">
-  <img src="https://github-readme-trophy.vercel.app/?username=asjad-rehman&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8" alt="Trophies" />
-</div>
-
-<div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:302b63,100:24243e&height=3&width=1000" />
 </div>
 
-### 💻 Flagship Projects
+## 📚 Intellectual Work
 
-<table>
-  <tr>
-    <td width="50%"><a href="https://github.com/asjad-rehman/Sadd"><img src="https://github-readme-stats.vercel.app/api/pin/?username=asjad-rehman&repo=Sadd&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A78BFA&text_color=c9d1d9" /></a></td>
-    <td width="50%"><a href="https://github.com/asjad-rehman/elite-da-parfum"><img src="https://github-readme-stats.vercel.app/api/pin/?username=asjad-rehman&repo=elite-da-parfum&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A78BFA&text_color=c9d1d9" /></a></td>
-  </tr>
-  <tr>
-    <td width="50%"><a href="https://github.com/asjad-rehman/MadinaEnterprises"><img src="https://github-readme-stats.vercel.app/api/pin/?username=asjad-rehman&repo=MadinaEnterprises&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A78BFA&text_color=c9d1d9" /></a></td>
-    <td width="50%"><a href="https://github.com/asjad-rehman/CryptoPals-Challenge-App"><img src="https://github-readme-stats.vercel.app/api/pin/?username=asjad-rehman&repo=CryptoPals-Challenge-App&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A78BFA&text_color=c9d1d9" /></a></td>
-  </tr>
-</table>
-
-| 🏆 Project | 📝 Description | 🛠️ Tech Stack |
-| :--- | :--- | :--- |
-| 📱 **[Sadd App](https://github.com/asjad-rehman/Sadd)** | Phone-discipline iOS app with screen-time blocking & halal accountability — flagship product of **Sadd Tech LLC**. | `Swift` `SwiftUI` `Supabase` `iOS` |
-| 💎 **[Elite da Parfum](https://github.com/asjad-rehman/elite-da-parfum)** | High-performance luxury e-commerce platform for premium fragrances. | `React` `TypeScript` `Node.js` `PostgreSQL` |
-| 🤖 **[InfinixLeverage](https://github.com/asjad-rehman/Infinixleverage)** | AI-powered customer support and automated inbound/outbound calling platform. | `JavaScript` `Three.js` `Vercel` |
-| 🏢 **[Madina Enterprises](https://github.com/asjad-rehman/MadinaEnterprises)** | Full-stack cotton brokerage management system. Contracts, ledgers, & cloud sync. | `C#` `.NET MAUI` `SQLite` `Supabase` |
-| 🔐 **[CryptoPals Suite](https://github.com/asjad-rehman/CryptoPals-Challenge-App)** | Cryptographic attack simulations with a full UI & testing suite. | `C#` `.NET` `Cryptography` |
-| ✍️ **[asjadrehman.com](https://github.com/asjad-rehman/asjadrehman-site)** | Personal digital notebook of essays, code, and revolutionary thought. | `Next.js` `Tailwind` `MDX` |
-| 🌐 **[Islamic Center Website](https://ichattiesburg.org/)** | Platform that boosted donations by **50%** & automated ops. | `WordPress` `Web` |
-| 🌐 **[Mosque Times Portal](https://masjid-times.vercel.app/)** | Display portal that automated the time clock for TV displays. | `Next.Js` `React` |
+- **Research** — Religiosity & political participation in Pakistan (WVS data, logistic regression, published analysis)
+- **Academic writing** — Constitutional law (SFFA, VMI, Ricci, Zelman, Carson, Kelo), African American political thought, international relations, statistics
+- **Khutbah preparation** — Hanafi jurisprudence, classical Sunni scholarship, Quranic interpretation
+- **Policy interest** — Tariffs, IEEPA authority, Islamic political theology
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:302b63,100:24243e&height=3&width=1000" />
@@ -198,19 +214,25 @@ if __name__ == "__main__":
   <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="snake animation" width="100%" />
 </div>
 
-## 🤝 Let's Connect
+## 🤝 Let's Talk
 
 <div align="center">
-  <i>Building something in security, privacy, mobile wellbeing, or faith-tech? Let's talk.</i>
+  <i>Building something in autonomous systems, ethical supply chains, or faith-tech? Let's talk.</i>
 
   <br><br>
 
-  <a href="mailto:contact@asjadrehman.com"><img src="https://img.shields.io/badge/Get%20In%20Touch-A78BFA?style=for-the-badge&logo=maildotru&logoColor=0f0c29" /></a>
+  <a href="mailto:MuhammadAsjad.RehmanHashmi@gmail.com"><img src="https://img.shields.io/badge/Get%20In%20Touch-A78BFA?style=for-the-badge&logo=maildotru&logoColor=0f0c29" /></a>
+  <a href="tel:571-447-6997"><img src="https://img.shields.io/badge/571--447--6997-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+  <a href="https://asjadrehman.com"><img src="https://img.shields.io/badge/asjadrehman.com-0f0c29?style=for-the-badge&logo=firefox&logoColor=A78BFA" /></a>
+  <a href="https://linkedin.com/in/asjad-rehman"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+
+  <br><br>
+
+  <b>Actively looking for:</b> customer intros for AegisSwarm (defense/critical infrastructure) · manufacturing partnerships for Estrah (US distributors, retailers) · senior engineering roles (startup stage, policy-adjacent tech, visa sponsorship path to EB-1C)
 
   <br><br>
 
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=140&section=footer" width="100%" />
-  <i>System executing... EOF.</i>
-  <br>
-  <b>Let's build something revolutionary together! 🚀</b>
+  <i>Last updated: July 2026</i>
 </div>
+</content>
