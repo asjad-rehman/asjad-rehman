@@ -1,53 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 120" width="380" height="120">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 380 120" width="380" height="120" role="img" aria-label="AegisSwarm">
   <defs>
-    <linearGradient id="bg-grad-light" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#f8fafc" />
-      <stop offset="100%" stop-color="#e2e8f0" />
-    </linearGradient>
-    <radialGradient id="glow" cx="10%" cy="50%" r="60%">
-      <stop offset="0%" stop-color="#0f766e" stop-opacity="0.08" />
-      <stop offset="100%" stop-color="#0f766e" stop-opacity="0" />
-    </radialGradient>
+    <linearGradient id="sky-aegisswarml" x1="0" y1="0" x2="0.5" y2="1"><stop offset="0" stop-color="#eef3fb"/><stop offset="1" stop-color="#dde5f1"/></linearGradient>
+    <radialGradient id="b1-aegisswarml"><stop offset="0" stop-color="#2dd4bf" stop-opacity="0.52"/><stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/></radialGradient>
+    <radialGradient id="b2-aegisswarml"><stop offset="0" stop-color="#38bdf8" stop-opacity="0.42"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+    <radialGradient id="b3-aegisswarml"><stop offset="0" stop-color="#2dd4bf" stop-opacity="0.42"/><stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/></radialGradient>
+    <g id="scene-aegisswarml">
+      <rect width="380" height="120" fill="url(#sky-aegisswarml)"/>
+      <circle cx="60" cy="80" r="120" fill="url(#b1-aegisswarml)"/>
+      <circle cx="330" cy="30" r="130" fill="url(#b2-aegisswarml)"/>
+      <circle cx="230" cy="110" r="95" fill="url(#b3-aegisswarml)"/>
+    </g>
+    <filter id="refract-aegisswarml" x="-15%" y="-15%" width="130%" height="130%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.013 0.019" numOctaves="2" seed="17" result="n"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.1" result="f"/>
+      <feDisplacementMap in="f" in2="n" scale="15" xChannelSelector="R" yChannelSelector="G" result="dm"/>
+      <feComponentTransfer in="dm"><feFuncR type="linear" slope="1.04" intercept="0.05"/><feFuncG type="linear" slope="1.04" intercept="0.05"/><feFuncB type="linear" slope="1.04" intercept="0.06"/></feComponentTransfer>
+    </filter>
+    <filter id="sh-aegisswarml" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#64748b" flood-opacity="0.3"/>
+    </filter>
+    <clipPath id="panel-aegisswarml"><rect x="7" y="7" width="366" height="106" rx="20"/></clipPath>
+    <clipPath id="ic-aegisswarml"><circle cx="44" cy="60" r="22"/></clipPath>
+    <linearGradient id="tint-aegisswarml" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.34"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.42"/></linearGradient>
+    <linearGradient id="rim-aegisswarml" x1="0" y1="0" x2="0.8" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/><stop offset="0.45" stop-color="#ffffff" stop-opacity="0.45"/><stop offset="1" stop-color="#0d9488" stop-opacity="0.35"/></linearGradient>
+    <linearGradient id="sheen-aegisswarml" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0.5"/><stop offset="0.5" stop-color="#fff" stop-opacity="0"/></linearGradient>
   </defs>
-  
-  <!-- Border & Background -->
-  <rect width="380" height="120" rx="8" fill="url(#bg-grad-light)" stroke="#cbd5e1" stroke-width="1" />
-  <rect width="380" height="120" rx="8" fill="url(#glow)" />
-  
-  <!-- Icon Wrapper -->
-  <g transform="translate(20, 36)">
-    <circle cx="24" cy="24" r="28" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
-    <g transform="translate(12, 12)">
-      <path d="M12 2L9 6H15L12 2Z" fill="#0f766e" />
-                <path d="M4 14C4 11.8 5.8 10 8 10H16C18.2 10 20 11.8 20 14V16H4V14Z" fill="#0f766e" opacity="0.8" />
-                <circle cx="8" cy="18" r="2" fill="#0f766e" />
-                <circle cx="16" cy="18" r="2" fill="#0f766e" />
-                <line x1="8" y1="10" x2="6" y2="7" stroke="#0f766e" stroke-width="1.5" />
-                <line x1="16" y1="10" x2="18" y2="7" stroke="#0f766e" stroke-width="1.5" />
-                <circle cx="6" cy="7" r="1.5" fill="#0f766e" />
-                <circle cx="18" cy="7" r="1.5" fill="#0f766e" />
-    </g>
-  </g>
 
-  <!-- Content -->
-  <g transform="translate(88, 20)">
-    <!-- Title -->
-    <text x="0" y="15" fill="#0f172a" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="15">AegisSwarm</text>
-    
-    <!-- Tag -->
-    <g transform="translate(210, 0)">
-      <rect width="60" height="18" rx="3" fill="#f1f5f9" stroke="#0f766e" stroke-width="1" />
-      <text x="30" y="12" fill="#0f766e" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="9" text-anchor="middle">ACTIVE</text>
-    </g>
-    
-    <!-- Description -->
-    <foreignObject x="0" y="26" width="270" height="42">
-      <div xmlns="http://www.w3.org/1999/xhtml" style="color: #475569; font-family: system-ui, -apple-system, sans-serif; font-size: 11px; line-height: 1.35; max-height: 38px; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
-        Autonomous swarm defense: distributed, human-in-the-loop response systems.
-      </div>
-    </foreignObject>
-    
-    <!-- Tech Stack -->
-    <text x="0" y="85" fill="#0f766e" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="600" opacity="0.95">Python · YOLOv8 · OpenCV · FastAPI · AWS</text>
+  <use xlink:href="#scene-aegisswarml" href="#scene-aegisswarml"/>
+
+  <rect x="7" y="7" width="366" height="106" rx="20" fill="#ffffff" opacity="0.4" filter="url(#sh-aegisswarml)"/>
+  <g clip-path="url(#panel-aegisswarml)">
+    <use xlink:href="#scene-aegisswarml" href="#scene-aegisswarml" filter="url(#refract-aegisswarml)"/>
+    <rect x="7" y="7" width="366" height="106" rx="20" fill="url(#tint-aegisswarml)"/>
+    <path d="M7 27 A20 20 0 0 1 27 7 H180 L120 113 H27 A20 20 0 0 1 7 93 Z" fill="url(#sheen-aegisswarml)"/>
   </g>
+  <rect x="7.4" y="8" width="365" height="105" rx="19.6" fill="none" stroke="#0d9488" stroke-opacity="0.16" stroke-width="0.8"/>
+  <rect x="7.8" y="7.2" width="364" height="105" rx="19.6" fill="none" stroke="#38bdf8" stroke-opacity="0.16" stroke-width="0.8"/>
+  <rect x="7.6" y="7.6" width="365" height="105" rx="19.4" fill="none" stroke="url(#rim-aegisswarml)" stroke-width="1.4"/>
+
+  <!-- icon lens -->
+  <g clip-path="url(#ic-aegisswarml)"><use xlink:href="#scene-aegisswarml" href="#scene-aegisswarml" filter="url(#refract-aegisswarml)"/><circle cx="44" cy="60" r="22" fill="#ffffff" fill-opacity="0.5"/></g>
+  <circle cx="44" cy="60" r="22" fill="none" stroke="#0d9488" stroke-opacity="0.28" stroke-width="1.2"/>
+  <g transform="translate(32,48)" color="#0d9488">
+    <path d="M12 2L9 6H15L12 2Z" fill="currentColor"/>
+    <path d="M4 14C4 11.8 5.8 10 8 10H16C18.2 10 20 11.8 20 14V16H4V14Z" fill="currentColor" opacity="0.85"/>
+    <circle cx="8" cy="18" r="2" fill="currentColor"/><circle cx="16" cy="18" r="2" fill="currentColor"/>
+    <line x1="8" y1="10" x2="6" y2="7" stroke="currentColor" stroke-width="1.5"/>
+    <line x1="16" y1="10" x2="18" y2="7" stroke="currentColor" stroke-width="1.5"/>
+    <circle cx="6" cy="7" r="1.5" fill="currentColor"/><circle cx="18" cy="7" r="1.5" fill="currentColor"/></g>
+
+  <!-- content -->
+  <text x="82" y="49" fill="#0f172a" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-weight="700" font-size="15">AegisSwarm</text>
+  <g>
+    <rect x="299" y="39" width="66" height="20" rx="10" fill="#ffffff" fill-opacity="0.55" stroke="#0d9488" stroke-opacity="0.5" stroke-width="1"/>
+    <circle cx="313" cy="49" r="2.6" fill="#0d9488"/>
+    <text x="322" y="52.5" fill="#0d9488" font-family="system-ui,-apple-system,sans-serif" font-weight="800" font-size="9" letter-spacing="0.5">ACTIVE</text>
+  </g>
+  <text x="82" y="72" fill="#475569" font-family="system-ui,-apple-system,sans-serif" font-size="10.5">Autonomous swarm defense — distributed,</text>
+  <text x="82" y="86" fill="#475569" font-family="system-ui,-apple-system,sans-serif" font-size="10.5">human-in-the-loop response systems.</text>
+  <text x="82" y="104" fill="#0d9488" font-family="system-ui,-apple-system,sans-serif" font-size="9.5" font-weight="600">Python · YOLOv8 · OpenCV · FastAPI · AWS</text>
 </svg>

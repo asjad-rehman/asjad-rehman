@@ -1,0 +1,564 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muhammad Asjad Rehman — Liquid Glass</title>
+<meta name="description" content="Muhammad Asjad Rehman Hashmi — three ventures built from zero: autonomous systems, ethical supply chains, and faith-centered software.">
+<style>
+  :root{
+    color-scheme: dark;
+    --bg0:#05070c; --bg1:#0a1120; --bg2:#0d1526;
+    --ink:#f5f8ff; --muted:#a6b6c9; --faint:#6f8098;
+    --teal:#2dd4bf; --violet:#c084fc; --sky:#38bdf8; --gold:#fbbf24; --pink:#fb7185;
+    --accent:#5eead4;
+    --glass-tint: rgba(255,255,255,.07);
+    --glass-tint-2: rgba(255,255,255,.04);
+    --glass-border: rgba(255,255,255,.30);
+    --glass-shadow: 0 24px 60px -18px rgba(0,0,0,.72);
+    --rim: rgba(255,255,255,.55);
+    --hair: rgba(255,255,255,.10);
+    --blur: 16px; --sat: 1.7; --bright: 1.06;
+    --pill-ink: var(--ink);
+    --stroke-w: 1px;
+  }
+  :root[data-theme="light"]{
+    color-scheme: light;
+    --bg0:#eaf0fb; --bg1:#e6ecf8; --bg2:#dde6f4;
+    --ink:#0f172a; --muted:#3e4c63; --faint:#6b7891;
+    --teal:#0d9488; --violet:#9333ea; --sky:#0284c7; --gold:#d97706; --pink:#e11d48;
+    --accent:#0d9488;
+    --glass-tint: rgba(255,255,255,.42);
+    --glass-tint-2: rgba(255,255,255,.30);
+    --glass-border: rgba(255,255,255,.75);
+    --glass-shadow: 0 24px 55px -20px rgba(30,45,80,.32);
+    --rim: rgba(255,255,255,.95);
+    --hair: rgba(15,23,42,.08);
+    --blur: 18px; --sat: 1.5; --bright: 1.02;
+  }
+  @media (prefers-color-scheme: light){
+    :root:not([data-theme="dark"]){
+      color-scheme: light;
+      --bg0:#eaf0fb; --bg1:#e6ecf8; --bg2:#dde6f4;
+      --ink:#0f172a; --muted:#3e4c63; --faint:#6b7891;
+      --teal:#0d9488; --violet:#9333ea; --sky:#0284c7; --gold:#d97706; --pink:#e11d48;
+      --accent:#0d9488;
+      --glass-tint: rgba(255,255,255,.42);
+      --glass-tint-2: rgba(255,255,255,.30);
+      --glass-border: rgba(255,255,255,.75);
+      --glass-shadow: 0 24px 55px -20px rgba(30,45,80,.32);
+      --rim: rgba(255,255,255,.95);
+      --hair: rgba(15,23,42,.08);
+      --blur: 18px; --sat: 1.5; --bright: 1.02;
+    }
+  }
+
+  *{ box-sizing:border-box; }
+  html{ scroll-behavior:smooth; }
+  body{
+    margin:0; min-height:100vh; color:var(--ink);
+    background:var(--bg0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+    overflow-x:hidden;
+  }
+  ::selection{ background:color-mix(in srgb, var(--teal) 40%, transparent); color:var(--ink); }
+
+  #meadow{ position:fixed; inset:0; width:100%; height:100%; z-index:0; display:block; }
+  .grain{
+    position:fixed; inset:0; z-index:1; pointer-events:none; opacity:.05; mix-blend-mode:overlay;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  .shell{ position:relative; z-index:2; }
+
+  /* ---------- GLASS ---------- */
+  .glass{
+    position:relative;
+    background:linear-gradient(160deg, var(--glass-tint), var(--glass-tint-2));
+    -webkit-backdrop-filter:blur(var(--blur)) saturate(var(--sat)) brightness(var(--bright));
+    backdrop-filter:blur(var(--blur)) saturate(var(--sat)) brightness(var(--bright));
+    border:var(--stroke-w) solid var(--glass-border);
+    box-shadow:var(--glass-shadow),
+      inset 1.4px 1.4px 0 rgba(255,255,255,.4),
+      inset -1px -1px 1px rgba(255,255,255,.05),
+      inset 0 0 22px rgba(255,255,255,.05);
+    border-radius:26px;
+    isolation:isolate;
+  }
+  html.refract .glass{
+    -webkit-backdrop-filter:blur(4px) saturate(var(--sat)) brightness(var(--bright));
+    backdrop-filter:blur(2px) url(#lg-distort) saturate(var(--sat)) brightness(var(--bright));
+  }
+  .glass::before{ /* cursor specular */
+    content:""; position:absolute; inset:0; border-radius:inherit; pointer-events:none; z-index:2;
+    background:radial-gradient(160px circle at var(--mx,50%) var(--my,-20%),
+      rgba(255,255,255,.22), rgba(255,255,255,0) 60%);
+    opacity:var(--lit,0); transition:opacity .4s ease;
+  }
+  .glass::after{ /* top sheen + chromatic edge */
+    content:""; position:absolute; inset:0; border-radius:inherit; pointer-events:none; z-index:1;
+    background:
+      linear-gradient(180deg, rgba(255,255,255,.24), rgba(255,255,255,0) 26%),
+      linear-gradient(120deg, color-mix(in srgb,var(--sky) 26%,transparent), transparent 34%, transparent 66%, color-mix(in srgb,var(--violet) 30%,transparent));
+    mix-blend-mode:screen; opacity:.65;
+  }
+  .glass > *{ position:relative; z-index:3; }
+
+  /* ---------- NAV ---------- */
+  header.nav{
+    position:fixed; top:18px; left:50%; transform:translateX(-50%);
+    z-index:40; width:min(1080px, calc(100% - 28px));
+    display:flex; align-items:center; gap:14px;
+    padding:10px 12px 10px 20px; border-radius:22px;
+  }
+  .brand{ display:flex; align-items:center; gap:10px; margin-right:auto; font-weight:700; letter-spacing:.2px; }
+  .brand .dot{ width:11px; height:11px; border-radius:50%;
+    background:conic-gradient(from 120deg, var(--teal), var(--sky), var(--violet), var(--pink), var(--teal));
+    box-shadow:0 0 12px color-mix(in srgb,var(--teal) 70%, transparent); }
+  .brand b{ font-size:15px; }
+  .brand span{ color:var(--faint); font-weight:600; font-size:11px; font-family:ui-monospace,"SF Mono",Menlo,monospace; letter-spacing:1px; }
+
+  nav.menu{ display:flex; align-items:center; gap:4px; }
+  .navitem{ position:relative; }
+  .navbtn{
+    font:inherit; font-size:14px; font-weight:600; color:var(--ink);
+    background:transparent; border:0; cursor:pointer; padding:9px 14px; border-radius:13px;
+    display:inline-flex; align-items:center; gap:7px; text-decoration:none;
+    transition:background .2s ease, transform .2s ease;
+  }
+  .navbtn:hover{ background:rgba(255,255,255,.10); }
+  :root[data-theme="light"] .navbtn:hover{ background:rgba(15,23,42,.06); }
+  .navbtn .car{ width:9px; height:9px; opacity:.7; transition:transform .3s cubic-bezier(.2,.9,.25,1); }
+  .navitem.open .navbtn .car{ transform:rotate(180deg); }
+  .navbtn:focus-visible, a:focus-visible, button:focus-visible{ outline:2px solid var(--accent); outline-offset:3px; }
+
+  .dropdown{
+    position:absolute; top:calc(100% + 12px); left:50%;
+    transform:translateX(-50%) translateY(8px) scale(.97);
+    width:270px; padding:10px; border-radius:20px;
+    opacity:0; visibility:hidden; transform-origin:top center;
+    transition:opacity .28s ease, transform .28s cubic-bezier(.2,.9,.25,1), visibility 0s linear .28s;
+  }
+  .navitem.open .dropdown, .navitem:hover .dropdown{
+    opacity:1; visibility:visible; transform:translateX(-50%) translateY(0) scale(1);
+    transition:opacity .28s ease, transform .28s cubic-bezier(.2,.9,.25,1);
+  }
+  .dropdown a{
+    display:flex; gap:12px; align-items:flex-start; padding:11px 12px; border-radius:13px;
+    text-decoration:none; color:var(--ink); transition:background .18s ease, transform .18s ease;
+  }
+  .dropdown a:hover{ background:rgba(255,255,255,.12); transform:translateX(2px); }
+  :root[data-theme="light"] .dropdown a:hover{ background:rgba(15,23,42,.06); }
+  .dropdown .ic{ flex:none; width:34px; height:34px; border-radius:10px; display:grid; place-items:center;
+    background:rgba(255,255,255,.08); border:1px solid var(--hair); }
+  .dropdown .ic svg{ width:18px; height:18px; }
+  .dropdown a > span:last-child{ display:flex; flex-direction:column; gap:2px; min-width:0; }
+  .dropdown .tt{ display:block; font-weight:650; font-size:13.5px; line-height:1.2; }
+  .dropdown .ds{ display:block; color:var(--muted); font-size:11.5px; line-height:1.35; }
+
+  .theme-toggle{
+    flex:none; width:40px; height:40px; border-radius:13px; cursor:pointer;
+    background:rgba(255,255,255,.08); border:1px solid var(--glass-border); color:var(--ink);
+    display:grid; place-items:center; transition:transform .3s ease, background .2s ease;
+  }
+  .theme-toggle:hover{ transform:rotate(-18deg); background:rgba(255,255,255,.14); }
+  .theme-toggle svg{ width:19px; height:19px; }
+  .sun{ display:none; } :root[data-theme="light"] .sun{ display:block; } :root[data-theme="light"] .moon{ display:none; }
+  @media (prefers-color-scheme: light){ :root:not([data-theme="dark"]) .sun{ display:block; } :root:not([data-theme="dark"]) .moon{ display:none; } }
+
+  /* ---------- LAYOUT ---------- */
+  main{ max-width:1080px; margin:0 auto; padding:150px 20px 80px; }
+  .hero{ text-align:center; padding:54px 34px 46px; margin-bottom:26px; }
+  .eyebrow{ font-family:ui-monospace,"SF Mono",Menlo,monospace; font-size:12px; letter-spacing:4px;
+    text-transform:uppercase; color:var(--accent); font-weight:600; }
+  .hero h1{
+    margin:.42em 0 .28em; font-size:clamp(34px, 7vw, 68px); line-height:1.02; letter-spacing:-1.5px;
+    font-weight:800; text-wrap:balance;
+    background:linear-gradient(120deg, var(--ink), color-mix(in srgb,var(--ink) 60%, var(--sky)));
+    -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent;
+  }
+  .hero p.lede{ max-width:56ch; margin:0 auto; color:var(--muted); font-size:clamp(15px,2.1vw,18px); line-height:1.55; }
+  .cta{ display:flex; gap:14px; justify-content:center; flex-wrap:wrap; margin-top:30px; }
+  .btn{ font:inherit; font-weight:650; font-size:15px; cursor:pointer; text-decoration:none;
+    padding:13px 24px; border-radius:15px; display:inline-flex; align-items:center; gap:9px;
+    border:1px solid var(--glass-border); color:var(--ink);
+    background:linear-gradient(160deg, rgba(255,255,255,.14), rgba(255,255,255,.05));
+    -webkit-backdrop-filter:blur(10px); backdrop-filter:blur(10px);
+    transition:transform .2s ease, box-shadow .2s ease, background .2s ease; }
+  .btn:hover{ transform:translateY(-2px); box-shadow:0 14px 30px -12px rgba(0,0,0,.5); }
+  .btn.primary{ border-color:transparent;
+    background:linear-gradient(120deg, var(--teal), var(--sky) 55%, var(--violet));
+    color:#03121a; font-weight:750; box-shadow:0 12px 34px -12px color-mix(in srgb,var(--teal) 70%, transparent); }
+  :root[data-theme="light"] .btn.primary{ color:#f8fdfc; }
+
+  .section{ margin-top:64px; }
+  .sec-head{ display:flex; align-items:baseline; gap:14px; margin:0 6px 20px; }
+  .sec-head .num{ font-family:ui-monospace,"SF Mono",Menlo,monospace; color:var(--accent); font-size:13px; font-weight:600; letter-spacing:1px; }
+  .sec-head h2{ margin:0; font-size:clamp(22px,3.4vw,30px); letter-spacing:-.5px; font-weight:750; }
+  .sec-head .rule{ flex:1; height:1px; background:linear-gradient(90deg, var(--hair), transparent); align-self:center; }
+
+  .grid{ display:grid; grid-template-columns:repeat(auto-fit, minmax(280px,1fr)); gap:16px; }
+  .card{ padding:22px; border-radius:22px; display:flex; flex-direction:column; gap:12px; min-height:186px;
+    text-decoration:none; color:var(--ink); transition:transform .3s cubic-bezier(.2,.9,.25,1), box-shadow .3s ease; }
+  .card:hover{ transform:translateY(-6px); }
+  .card-top{ display:flex; align-items:center; gap:13px; }
+  .card .lens{ flex:none; width:46px; height:46px; border-radius:14px; display:grid; place-items:center;
+    background:radial-gradient(120% 120% at 30% 20%, rgba(255,255,255,.20), rgba(255,255,255,.04));
+    border:1px solid var(--hair); box-shadow:inset 1px 1px 0 rgba(255,255,255,.35); }
+  .card .lens svg{ width:23px; height:23px; }
+  .card h3{ margin:0; font-size:17px; font-weight:750; letter-spacing:-.2px; }
+  .pill{ margin-left:auto; font-family:ui-monospace,"SF Mono",Menlo,monospace; font-size:10px; font-weight:700; letter-spacing:.6px;
+    padding:5px 10px 5px 8px; border-radius:999px; display:inline-flex; align-items:center; gap:6px;
+    border:1px solid currentColor; }
+  .pill i{ width:6px; height:6px; border-radius:50%; background:currentColor; box-shadow:0 0 8px currentColor; }
+  .card p{ margin:0; color:var(--muted); font-size:13.5px; line-height:1.5; }
+  .card .tech{ margin-top:auto; color:var(--accent); font-size:11.5px; font-weight:600;
+    font-family:ui-monospace,"SF Mono",Menlo,monospace; letter-spacing:.2px; }
+  .card .go{ position:absolute; top:18px; right:18px; opacity:0; transform:translate(-4px,4px); transition:.25s ease; color:var(--muted); }
+  .card:hover .go{ opacity:1; transform:translate(0,0); }
+
+  .two{ display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+  .panel{ padding:24px; border-radius:22px; }
+  .panel h3{ margin:0 0 14px; font-size:15px; letter-spacing:.3px; display:flex; align-items:center; gap:9px; }
+  .panel ul{ margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:11px; }
+  .panel li{ display:flex; gap:11px; align-items:flex-start; color:var(--muted); font-size:14px; line-height:1.45; }
+  .panel li::before{ content:""; flex:none; margin-top:7px; width:7px; height:7px; border-radius:2px; transform:rotate(45deg);
+    background:linear-gradient(135deg, var(--teal), var(--violet)); }
+
+  .connect{ padding:30px; border-radius:24px; text-align:center; }
+  .connect .lede{ color:var(--muted); max-width:48ch; margin:6px auto 22px; font-size:15px; line-height:1.5; }
+  .links{ display:flex; gap:12px; justify-content:center; flex-wrap:wrap; }
+  .link{ text-decoration:none; color:var(--ink); font-weight:600; font-size:14px; padding:11px 18px; border-radius:14px;
+    border:1px solid var(--glass-border); background:rgba(255,255,255,.06); display:inline-flex; gap:9px; align-items:center;
+    transition:transform .2s ease, background .2s ease; }
+  .link:hover{ transform:translateY(-2px); background:rgba(255,255,255,.13); }
+  .link svg{ width:17px; height:17px; }
+
+  footer{ text-align:center; color:var(--faint); font-size:12.5px; line-height:1.7; margin-top:60px; padding:0 20px; }
+  footer code{ font-family:ui-monospace,"SF Mono",Menlo,monospace; color:var(--muted); font-size:11.5px;
+    background:rgba(255,255,255,.06); padding:2px 6px; border-radius:6px; border:1px solid var(--hair); }
+  footer .mode{ margin-top:6px; opacity:.75; }
+
+  .reveal{ opacity:0; transform:translateY(22px); transition:opacity .7s ease, transform .7s cubic-bezier(.2,.9,.25,1); }
+  .reveal.in{ opacity:1; transform:none; }
+
+  @media (max-width:720px){
+    .two{ grid-template-columns:1fr; }
+    .brand span{ display:none; }
+    nav.menu .navbtn{ padding:9px 10px; font-size:13px; }
+    header.nav{ padding:9px 10px; gap:6px; }
+  }
+  @media (prefers-reduced-motion: reduce){
+    *{ animation:none !important; scroll-behavior:auto; }
+    .reveal{ opacity:1; transform:none; transition:none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- SVG displacement filter used by backdrop-filter (Chromium) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <filter id="lg-distort" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+    <feTurbulence type="fractalNoise" baseFrequency="0.009 0.013" numOctaves="2" seed="12" result="n"/>
+    <feGaussianBlur in="n" stdDeviation="1.1" result="nb"/>
+    <feDisplacementMap in="SourceGraphic" in2="nb" scale="32" xChannelSelector="R" yChannelSelector="G"/>
+  </filter>
+</svg>
+
+<canvas id="meadow"></canvas>
+<div class="grain" aria-hidden="true"></div>
+
+<div class="shell">
+<header class="nav glass" data-glass>
+  <div class="brand"><span class="dot"></span><b>Asjad&nbsp;Rehman</b><span>// FOUNDER</span></div>
+  <nav class="menu" aria-label="Primary">
+    <div class="navitem" data-nav>
+      <button class="navbtn" aria-haspopup="true" aria-expanded="false">Ventures
+        <svg class="car" viewBox="0 0 12 12" fill="none"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <div class="dropdown glass" data-glass role="menu">
+        <a href="https://aegisswarm.com" role="menuitem"><span class="ic" style="color:var(--teal)"><svg viewBox="0 0 24 24" fill="none"><path d="M12 2L9 6h6l-3-4z" fill="currentColor"/><path d="M4 14c0-2.2 1.8-4 4-4h8c2.2 0 4 1.8 4 4v2H4v-2z" fill="currentColor" opacity=".85"/><circle cx="8" cy="18" r="2" fill="currentColor"/><circle cx="16" cy="18" r="2" fill="currentColor"/><path d="M8 10L6 7M16 10l2-3" stroke="currentColor" stroke-width="1.5"/></svg></span><span><span class="tt">AegisSwarm</span><span class="ds">Autonomous swarm defense · edge counter-drone</span></span></a>
+        <a href="https://estrah.com" role="menuitem"><span class="ic" style="color:var(--teal)"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3c4 3 6 6 6 9a6 6 0 11-12 0c0-3 2-6 6-9z" fill="currentColor"/><path d="M12 8v11" stroke="#03121a" stroke-width="1.4" opacity=".5"/></svg></span><span><span class="tt">Estrah</span><span class="ds">GOTS-certified organic cotton supply chain</span></span></a>
+        <a href="https://confer.sadd.app" role="menuitem"><span class="ic" style="color:var(--violet)"><svg viewBox="0 0 24 24" fill="none"><path d="M12 21l-1.45-1.32C5.4 15 2 12 2 8.5A4.5 4.5 0 019.5 5L12 7l2.5-2A4.5 4.5 0 0122 8.5c0 3.5-3.4 6.5-8.55 11.18L12 21z" fill="currentColor"/><path d="M12 8v5M9.5 10.5h5" stroke="#fff" stroke-width="1.4" stroke-linecap="round"/></svg></span><span><span class="tt">Confer</span><span class="ds">Community donation checkout &amp; kiosk</span></span></a>
+        <a href="https://sadd.app" role="menuitem"><span class="ic" style="color:var(--violet)"><svg viewBox="0 0 24 24" fill="none"><rect x="6" y="2" width="12" height="20" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="18" r="1.4" fill="currentColor"/><rect x="9" y="8" width="6" height="5" rx="1" fill="currentColor" opacity=".7"/></svg></span><span><span class="tt">Sadd</span><span class="ds">A deliberate barrier to infinite feeds</span></span></a>
+        <a href="https://infinixleverage.com" role="menuitem"><span class="ic" style="color:var(--pink)"><svg viewBox="0 0 24 24" fill="none"><rect x="9" y="3" width="6" height="11" rx="3" fill="currentColor"/><path d="M6 11a6 6 0 0012 0" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round"/><path d="M12 17v3M9 20h6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span><span><span class="tt">InfinixLeverage</span><span class="ds">Voice-AI call agents for hospitality</span></span></a>
+      </div>
+    </div>
+    <div class="navitem"><a class="navbtn" href="#research">Research</a></div>
+    <div class="navitem" data-nav>
+      <button class="navbtn" aria-haspopup="true" aria-expanded="false">Connect
+        <svg class="car" viewBox="0 0 12 12" fill="none"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <div class="dropdown glass" data-glass role="menu">
+        <a href="https://asjadrehman.com" role="menuitem"><span class="ic" style="color:var(--sky)"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.7"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18" stroke="currentColor" stroke-width="1.4"/></svg></span><span><span class="tt">asjadrehman.com</span><span class="ds">Portfolio &amp; writing</span></span></a>
+        <a href="https://linkedin.com/in/asjad-rehman" role="menuitem"><span class="ic" style="color:var(--violet)"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.94 8.5v9H4V8.5h2.94zM5.47 4a1.7 1.7 0 110 3.4 1.7 1.7 0 010-3.4zM20 17.5h-2.94v-4.9c0-1.3-.5-2-1.5-2s-1.6.7-1.6 2v4.9H11V8.5h2.9v1.3c.5-.8 1.4-1.5 2.8-1.5 2 0 3.3 1.3 3.3 4v5.2z"/></svg></span><span><span class="tt">LinkedIn</span><span class="ds">in/asjad-rehman</span></span></a>
+        <a href="mailto:MuhammadAsjad.RehmanHashmi@gmail.com" role="menuitem"><span class="ic" style="color:var(--teal)"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2.5" stroke="currentColor" stroke-width="1.7"/><path d="M4 7l8 5 8-5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></span><span><span class="tt">Email</span><span class="ds">Say salaam</span></span></a>
+        <a href="https://x.com/a5jadrehman" role="menuitem"><span class="ic" style="color:var(--ink)"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 3h3l-6.6 7.5L22 21h-5.9l-4.2-5.5L6.9 21H4l7-8-6.8-10h6l3.8 5 4.5-5z"/></svg></span><span><span class="tt">X</span><span class="ds">@a5jadrehman</span></span></a>
+      </div>
+    </div>
+  </nav>
+  <button class="theme-toggle" id="themeBtn" aria-label="Toggle light and dark theme">
+    <svg class="moon" viewBox="0 0 24 24" fill="none"><path d="M20 14.5A8 8 0 019.5 4 7 7 0 1020 14.5z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+    <svg class="sun" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.7"/><path d="M12 2v2.5M12 19.5V22M4.5 4.5l1.8 1.8M17.7 17.7l1.8 1.8M2 12h2.5M19.5 12H22M4.5 19.5l1.8-1.8M17.7 6.3l1.8-1.8" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+  </button>
+</header>
+
+<main>
+  <section class="hero glass" data-glass>
+    <div class="eyebrow">Founder · Engineer · Researcher</div>
+    <h1>Muhammad Asjad Rehman</h1>
+    <p class="lede">Three ventures built from zero — autonomous systems, ethical supply chains, and faith-centered software. Built securely, cleanly, and consciously.</p>
+    <div class="cta">
+      <a class="btn primary" href="#ventures">Explore ventures
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h9M8 4l4 4-4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      <a class="btn" href="#connect">Get in touch</a>
+    </div>
+  </section>
+
+  <section class="section" id="ventures">
+    <div class="sec-head reveal"><span class="num">01</span><h2>Ventures</h2><span class="rule"></span></div>
+    <div class="grid">
+      <a class="card glass reveal" data-glass href="https://aegisswarm.com">
+        <span class="go"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M5 11L11 5M6 5h5v5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <div class="card-top">
+          <span class="lens" style="color:var(--teal)"><svg viewBox="0 0 24 24" fill="none"><path d="M12 2L9 6h6l-3-4z" fill="currentColor"/><path d="M4 14c0-2.2 1.8-4 4-4h8c2.2 0 4 1.8 4 4v2H4v-2z" fill="currentColor" opacity=".85"/><circle cx="8" cy="18" r="2" fill="currentColor"/><circle cx="16" cy="18" r="2" fill="currentColor"/><path d="M8 10L6 7M16 10l2-3" stroke="currentColor" stroke-width="1.5"/></svg></span>
+          <h3>AegisSwarm</h3>
+          <span class="pill" style="color:var(--teal)"><i></i>ACTIVE</span>
+        </div>
+        <p>Autonomous swarm defense — distributed, human-in-the-loop response systems.</p>
+        <div class="tech">Python · YOLOv8 · OpenCV · FastAPI · AWS</div>
+      </a>
+
+      <a class="card glass reveal" data-glass href="https://estrah.com">
+        <span class="go"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M5 11L11 5M6 5h5v5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <div class="card-top">
+          <span class="lens" style="color:var(--teal)"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3c4 3 6 6 6 9a6 6 0 11-12 0c0-3 2-6 6-9z" fill="currentColor"/><path d="M12 8v11" stroke="#03121a" stroke-width="1.4" opacity=".45"/></svg></span>
+          <h3>Estrah</h3>
+          <span class="pill" style="color:var(--teal)"><i></i>ACTIVE</span>
+        </div>
+        <p>GOTS-certified organic cotton, vertically manufactured. Retail &amp; wholesale.</p>
+        <div class="tech">Next.js · Supabase · Stripe · PostgreSQL</div>
+      </a>
+
+      <a class="card glass reveal" data-glass href="https://confer.sadd.app">
+        <span class="go"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M5 11L11 5M6 5h5v5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <div class="card-top">
+          <span class="lens" style="color:var(--violet)"><svg viewBox="0 0 24 24" fill="none"><path d="M12 21l-1.45-1.32C5.4 15 2 12 2 8.5A4.5 4.5 0 019.5 5L12 7l2.5-2A4.5 4.5 0 0122 8.5c0 3.5-3.4 6.5-8.55 11.18L12 21z" fill="currentColor"/><path d="M12 8v5M9.5 10.5h5" stroke="#fff" stroke-width="1.4" stroke-linecap="round"/></svg></span>
+          <h3>Confer</h3>
+          <span class="pill" style="color:var(--violet)"><i></i>LIVE</span>
+        </div>
+        <p>Donation infrastructure for communities — checkout &amp; iPad kiosk flow.</p>
+        <div class="tech">Next.js · React · .NET MAUI · Supabase</div>
+      </a>
+
+      <a class="card glass reveal" data-glass href="https://sadd.app">
+        <span class="go"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M5 11L11 5M6 5h5v5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <div class="card-top">
+          <span class="lens" style="color:var(--violet)"><svg viewBox="0 0 24 24" fill="none"><rect x="6" y="2" width="12" height="20" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="18" r="1.4" fill="currentColor"/><rect x="9" y="8" width="6" height="5" rx="1" fill="currentColor" opacity=".7"/></svg></span>
+          <h3>Sadd</h3>
+          <span class="pill" style="color:var(--violet)"><i></i>LIVE</span>
+        </div>
+        <p>A focus app built with intention — a deliberate barrier to infinite feeds.</p>
+        <div class="tech">SwiftUI · iOS · Supabase · RevenueCat</div>
+      </a>
+
+      <a class="card glass reveal" data-glass href="https://infinixleverage.com">
+        <span class="go"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M5 11L11 5M6 5h5v5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <div class="card-top">
+          <span class="lens" style="color:var(--pink)"><svg viewBox="0 0 24 24" fill="none"><rect x="9" y="3" width="6" height="11" rx="3" fill="currentColor"/><path d="M6 11a6 6 0 0012 0" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round"/><path d="M12 17v3M9 20h6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+          <h3>InfinixLeverage</h3>
+          <span class="pill" style="color:var(--pink)"><i></i>LIVE</span>
+        </div>
+        <p>Voice AI call agents for hospitality &amp; client operations delivery systems.</p>
+        <div class="tech">Voice AI · Eval Frameworks · JS · Docker</div>
+      </a>
+
+      <div class="card glass reveal" data-glass style="justify-content:center; align-items:flex-start; gap:8px;">
+        <div class="eyebrow" style="color:var(--violet)">Ecosystem</div>
+        <p style="color:var(--ink); font-size:15px; line-height:1.5; font-weight:600;">Five products, one thesis: technology that keeps a human in the loop.</p>
+        <div class="tech" style="color:var(--muted)">Sadd &amp; Confer share a donation backbone</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="research">
+    <div class="sec-head reveal"><span class="num">02</span><h2>Research</h2><span class="rule"></span></div>
+    <div class="two">
+      <div class="panel glass reveal" data-glass>
+        <h3><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 3v6l-4.5 8A2 2 0 009.2 20h5.6a2 2 0 001.7-3L12 9" stroke="var(--teal)" stroke-width="1.7" stroke-linejoin="round"/><path d="M9.5 3h5" stroke="var(--teal)" stroke-width="1.7" stroke-linecap="round"/></svg>Currently building</h3>
+        <ul>
+          <li>AegisSwarm edge counter-drone stack</li>
+          <li>Estrah vertical supply-chain backend</li>
+          <li>Sadd &amp; Confer donation ecosystem</li>
+        </ul>
+      </div>
+      <div class="panel glass reveal" data-glass>
+        <h3><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 20s-7-4.2-7-10a4 4 0 017-2.6A4 4 0 0119 10c0 5.8-7 10-7 10z" stroke="var(--violet)" stroke-width="1.7" stroke-linejoin="round"/></svg>Currently researching</h3>
+        <ul>
+          <li>Religiosity &amp; political participation in Pakistan</li>
+          <li>Hanafi jurisprudence &amp; ethical commerce</li>
+          <li>IEEPA authority &amp; emergency economic powers</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="connect">
+    <div class="sec-head reveal"><span class="num">03</span><h2>Connect</h2><span class="rule"></span></div>
+    <div class="connect glass reveal" data-glass>
+      <div class="eyebrow" style="color:var(--accent)">Let's build something</div>
+      <p class="lede">Open to conversations on autonomous systems, ethical commerce, and the political economy of emerging technology.</p>
+      <div class="links">
+        <a class="link" href="https://asjadrehman.com"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.7"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18" stroke="currentColor" stroke-width="1.3"/></svg>Website</a>
+        <a class="link" href="https://linkedin.com/in/asjad-rehman"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.94 8.5v9H4V8.5h2.94zM5.47 4a1.7 1.7 0 110 3.4 1.7 1.7 0 010-3.4zM20 17.5h-2.94v-4.9c0-1.3-.5-2-1.5-2s-1.6.7-1.6 2v4.9H11V8.5h2.9v1.3c.5-.8 1.4-1.5 2.8-1.5 2 0 3.3 1.3 3.3 4v5.2z"/></svg>LinkedIn</a>
+        <a class="link" href="mailto:MuhammadAsjad.RehmanHashmi@gmail.com"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2.5" stroke="currentColor" stroke-width="1.7"/><path d="M4 7l8 5 8-5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Email</a>
+        <a class="link" href="https://x.com/a5jadrehman"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 3h3l-6.6 7.5L22 21h-5.9l-4.2-5.5L6.9 21H4l7-8-6.8-10h6l3.8 5 4.5-5z"/></svg>X</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div>Crafted in <strong>Liquid Glass</strong> — real <code>feTurbulence</code> + <code>feDisplacementMap</code> refraction over a living canvas meadow.</div>
+    <div class="mode">Move your cursor across the glass · toggle the theme · open a menu.</div>
+  </footer>
+</main>
+</div>
+
+<script>
+(() => {
+  const root = document.documentElement;
+
+  /* ---- theme ---- */
+  const btn = document.getElementById('themeBtn');
+  const apply = (t) => { if(t) root.setAttribute('data-theme', t); paintMeadow(true); };
+  btn.addEventListener('click', () => {
+    const cur = root.getAttribute('data-theme')
+      || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    apply(cur === 'dark' ? 'light' : 'dark');
+  });
+
+  /* ---- enable true refraction only where supported (Chromium) ---- */
+  try{
+    if (CSS && CSS.supports && CSS.supports('backdrop-filter', 'url("#lg-distort")')) {
+      root.classList.add('refract');
+    }
+  }catch(e){}
+
+  /* ---- dropdown accessibility (hover handles desktop; click for touch/kb) ---- */
+  document.querySelectorAll('[data-nav]').forEach(item => {
+    const b = item.querySelector('.navbtn');
+    b.addEventListener('click', (e) => {
+      e.preventDefault();
+      const open = item.classList.toggle('open');
+      b.setAttribute('aria-expanded', open ? 'true' : 'false');
+      document.querySelectorAll('[data-nav]').forEach(o => { if(o!==item){ o.classList.remove('open'); o.querySelector('.navbtn').setAttribute('aria-expanded','false'); } });
+    });
+  });
+  document.addEventListener('click', (e) => {
+    if(!e.target.closest('[data-nav]')) document.querySelectorAll('[data-nav]').forEach(o => { o.classList.remove('open'); o.querySelector('.navbtn').setAttribute('aria-expanded','false'); });
+  });
+  document.addEventListener('keydown', (e) => { if(e.key==='Escape') document.querySelectorAll('[data-nav].open .navbtn').forEach(b=>b.click()); });
+
+  /* ---- cursor specular on every glass pane ---- */
+  document.querySelectorAll('[data-glass]').forEach(el => {
+    el.addEventListener('pointermove', (e) => {
+      const r = el.getBoundingClientRect();
+      el.style.setProperty('--mx', ((e.clientX - r.left) / r.width * 100) + '%');
+      el.style.setProperty('--my', ((e.clientY - r.top) / r.height * 100) + '%');
+      el.style.setProperty('--lit', '1');
+    });
+    el.addEventListener('pointerleave', () => el.style.setProperty('--lit', '0'));
+  });
+
+  /* ---- scroll reveal ---- */
+  const io = new IntersectionObserver((es) => es.forEach(x => { if(x.isIntersecting){ x.target.classList.add('in'); io.unobserve(x.target); } }), {threshold:.14});
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  /* ---- living meadow (Canvas) — high-frequency detail for the glass to refract ---- */
+  const cv = document.getElementById('meadow');
+  const ctx = cv.getContext('2d');
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let W, H, DPR, blooms = [], pointer = {x:.5, y:.5}, targ = {x:.5, y:.5};
+
+  const palettes = {
+    dark:  { sky:['#05070c','#0a1424','#0b1120'], blooms:['#2dd4bf','#c084fc','#38bdf8','#fbbf24','#fb7185','#a78bfa','#34d399'], core:'#ffffff', alpha:.9, coreA:.9 },
+    light: { sky:['#eaf0fb','#dfe9fb','#e9e2f6'], blooms:['#5eead4','#c4b5fd','#7dd3fc','#fcd34d','#fda4af','#a5b4fc','#6ee7b7'], core:'#ffffff', alpha:.72, coreA:.85 }
+  };
+  const curTheme = () => root.getAttribute('data-theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark':'light');
+
+  function seedRand(s){ return () => (s = s*16807 % 2147483647) / 2147483647; }
+
+  function build(){
+    DPR = Math.min(2, window.devicePixelRatio || 1);
+    W = cv.width = Math.floor(innerWidth * DPR);
+    H = cv.height = Math.floor(innerHeight * DPR);
+    cv.style.width = innerWidth+'px'; cv.style.height = innerHeight+'px';
+    const rnd = seedRand(20260719);
+    const count = Math.round((innerWidth*innerHeight)/9000);
+    blooms = [];
+    for(let i=0;i<count;i++){
+      blooms.push({
+        x: rnd(), y: rnd(),
+        r: (14 + rnd()*70),
+        ci: Math.floor(rnd()*7),
+        depth: .35 + rnd()*.65,
+        ph: rnd()*Math.PI*2,
+        sp: .2 + rnd()*.6,
+        stamen: rnd() > .55
+      });
+    }
+  }
+
+  function paintMeadow(instant){
+    const P = palettes[curTheme()];
+    // sky
+    const g = ctx.createLinearGradient(0,0,W*.4,H);
+    g.addColorStop(0, P.sky[0]); g.addColorStop(.55, P.sky[1]); g.addColorStop(1, P.sky[2]);
+    ctx.globalCompositeOperation = 'source-over';
+    ctx.fillStyle = g; ctx.fillRect(0,0,W,H);
+    // ambient wash
+    const rg = ctx.createRadialGradient(W*.7,H*.25,0, W*.7,H*.25, W*.7);
+    rg.addColorStop(0, hexA(P.blooms[1], curTheme()==='dark'?.16:.10)); rg.addColorStop(1,'rgba(0,0,0,0)');
+    ctx.fillStyle = rg; ctx.fillRect(0,0,W,H);
+
+    const t = instant ? 0 : (performance.now()/1000);
+    const px = (pointer.x-.5), py = (pointer.y-.5);
+    ctx.globalCompositeOperation = curTheme()==='dark' ? 'lighter' : 'source-over';
+    for(const b of blooms){
+      const drift = reduce ? 0 : Math.sin(t*b.sp + b.ph)*10*DPR;
+      const drift2= reduce ? 0 : Math.cos(t*b.sp*.8 + b.ph)*8*DPR;
+      const x = b.x*W + drift + px*90*DPR*b.depth;
+      const y = b.y*H + drift2 + py*90*DPR*b.depth;
+      const r = b.r*DPR*b.depth;
+      const col = P.blooms[b.ci];
+      const rad = ctx.createRadialGradient(x,y,0, x,y,r);
+      rad.addColorStop(0, hexA(col, P.alpha*(curTheme()==='dark'?.85:.7)));
+      rad.addColorStop(.5, hexA(col, P.alpha*.35));
+      rad.addColorStop(1, hexA(col, 0));
+      ctx.fillStyle = rad;
+      ctx.beginPath(); ctx.arc(x,y,r,0,Math.PI*2); ctx.fill();
+      if(b.stamen){
+        ctx.fillStyle = hexA(P.core, P.coreA*.5*b.depth);
+        ctx.beginPath(); ctx.arc(x,y, Math.max(1.2, r*.09), 0, Math.PI*2); ctx.fill();
+      }
+    }
+    ctx.globalCompositeOperation = 'source-over';
+  }
+
+  function hexA(hex, a){
+    const h = hex.replace('#',''); const n = parseInt(h.length===3 ? h.replace(/(.)/g,'$1$1'):h,16);
+    return `rgba(${(n>>16)&255},${(n>>8)&255},${n&255},${a})`;
+  }
+
+  let raf;
+  function loop(){ targ.x += (pointer.x-targ.x)*.05; targ.y += (pointer.y-targ.y)*.05; paintMeadow(false); raf = requestAnimationFrame(loop); }
+
+  window.addEventListener('pointermove', (e)=>{ pointer.x = e.clientX/innerWidth; pointer.y = e.clientY/innerHeight; }, {passive:true});
+  addEventListener('resize', () => { build(); paintMeadow(true); });
+  build();
+  if(reduce){ paintMeadow(true); } else { loop(); }
+})();
+</script>
+</body>
+</html>
