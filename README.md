@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img alt="Muhammad Asjad Rehman Hashmi" src="assets/banner-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/banner-light.svg">
+  <img alt="Muhammad Asjad Rehman Hashmi" src="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/banner-dark.svg" width="100%">
 </picture>
 
 <p><em>Three ventures built from zero. Autonomous systems, ethical supply chains, and faith-centered software.</em></p>
@@ -23,9 +23,9 @@
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg">
-  <img alt="" src="assets/divider-dark.svg" width="60%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/divider-light.svg">
+  <img alt="" src="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/divider-dark.svg" width="60%">
 </picture>
 
 </div>
@@ -37,18 +37,18 @@
     <td width="50%" align="center" style="border: none; padding: 6px;">
       <a href="https://aegisswarm.com">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/card-aegisswarm-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="assets/card-aegisswarm-light.svg">
-          <img src="assets/card-aegisswarm-dark.svg" alt="AegisSwarm" width="100%">
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/card-aegisswarm-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/card-aegisswarm-light.svg">
+          <img src="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/card-aegisswarm-dark.svg" alt="AegisSwarm" width="100%">
         </picture>
       </a>
     </td>
     <td width="50%" align="center" style="border: none; padding: 6px;">
       <a href="https://estrah.com">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/card-estrah-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="assets/card-estrah-light.svg">
-          <img src="assets/card-estrah-dark.svg" alt="Estrah" width="100%">
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/card-estrah-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/card-estrah-light.svg">
+          <img src="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/card-estrah-dark.svg" alt="Estrah" width="100%">
         </picture>
       </a>
     </td>
@@ -57,38 +57,40 @@
     <td width="50%" align="center" style="border: none; padding: 6px;">
       <a href="https://confer.sadd.app">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/card-confer-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="assets/card-confer-light.svg">
-          <img src="assets/card-confer-dark.svg" alt="Confer" width="100%">
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/card-confer-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/card-confer-light.svg">
+          <img src="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/card-confer-dark.svg" alt="Confer" width="100%">
         </picture>
       </a>
     </td>
     <td width="50%" align="center" style="border: none; padding: 6px;">
       <a href="https://sadd.app">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/card-sadd-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="assets/card-sadd-light.svg">
-          <img src="assets/card-sadd-dark.svg" alt="Sadd" width="100%">
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/card-sadd-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/card-sadd-light.svg">
+          <img src="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/card-sadd-dark.svg" alt="Sadd" width="100%">
         </picture>
       </a>
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center" style="border: none; padding: 6px;">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="assets/card-infinixleverage-dark.svg">
-        <source media="(prefers-color-scheme: light)" srcset="assets/card-infinixleverage-light.svg">
-        <img src="assets/card-infinixleverage-dark.svg" alt="InfinixLeverage" width="50%">
-      </picture>
+      <a href="https://infinixleverage.com">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/card-infinixleverage-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/card-infinixleverage-light.svg">
+          <img src="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/card-infinixleverage-dark.svg" alt="InfinixLeverage" width="50%">
+        </picture>
+      </a>
     </td>
   </tr>
 </table>
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg">
-  <img alt="" src="assets/divider-dark.svg" width="60%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/divider-light.svg">
+  <img alt="" src="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/divider-dark.svg" width="60%">
 </picture>
 </div>
 
@@ -129,9 +131,9 @@ class AsjadRehman:
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg">
-  <img alt="" src="assets/divider-dark.svg" width="60%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/divider-light.svg">
+  <img alt="" src="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/divider-dark.svg" width="60%">
 </picture>
 </div>
 
@@ -150,9 +152,9 @@ class AsjadRehman:
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg">
-  <img alt="" src="assets/divider-dark.svg" width="60%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/divider-light.svg">
+  <img alt="" src="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/divider-dark.svg" width="60%">
 </picture>
 </div>
 
@@ -178,9 +180,9 @@ class AsjadRehman:
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg">
-  <img alt="" src="assets/divider-dark.svg" width="60%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/divider-light.svg">
+  <img alt="" src="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/divider-dark.svg" width="60%">
 </picture>
 </div>
 
