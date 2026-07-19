@@ -32,48 +32,54 @@
 
 ### 🚀 Flagship Ventures
 
-<table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
   <tr>
-    <td width="50%" valign="top">
-      <strong><a href="https://aegisswarm.com">AegisSwarm</a></strong> &nbsp;<img src="https://img.shields.io/badge/ACTIVE-4a7a5a?style=flat-square" alt="Active" />
-      <br><br>
-      Autonomous swarm defense: distributed, human-in-the-loop response systems for adversarial conditions.
-      <br>
-      <code>YOLOv8-nano, 96.8% mAP on 9,495+ swarm-scenario images.</code>
-      <br><br>
-      <code>Python</code> · <code>YOLOv8</code> · <code>OpenCV</code> · <code>FastAPI</code> · <code>Raspberry Pi 5</code> · <code>AWS</code>
+    <td width="50%" align="center" style="border: none; padding: 6px;">
+      <a href="https://aegisswarm.com">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-aegisswarm-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/card-aegisswarm-light.svg">
+          <img src="assets/card-aegisswarm-dark.svg" alt="AegisSwarm" width="100%">
+        </picture>
+      </a>
     </td>
-    <td width="50%" valign="top">
-      <strong><a href="https://estrah.com">Estrah</a></strong> &nbsp;<img src="https://img.shields.io/badge/ACTIVE-4a7a5a?style=flat-square" alt="Active" />
-      <br><br>
-      GOTS-certified organic cotton, vertically manufactured in Punjab, Pakistan. Scaling B2B wholesale and luxury DTC.
-      <br><br>
-      <code>Next.js</code> · <code>Supabase</code> · <code>Stripe</code> · <code>PostgreSQL</code>
+    <td width="50%" align="center" style="border: none; padding: 6px;">
+      <a href="https://estrah.com">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-estrah-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/card-estrah-light.svg">
+          <img src="assets/card-estrah-dark.svg" alt="Estrah" width="100%">
+        </picture>
+      </a>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <strong><a href="https://confer.sadd.app">Confer</a></strong> &nbsp;<img src="https://img.shields.io/badge/LIVE-0284c7?style=flat-square" alt="Live" />
-      <br><br>
-      Donation infrastructure for community organizations: online donor checkout and an iPad kiosk flow, from a single system.
-      <br><br>
-      <code>Next.js</code> · <code>React</code> · <code>.NET MAUI</code> · <code>PostgreSQL</code>
+    <td width="50%" align="center" style="border: none; padding: 6px;">
+      <a href="https://confer.sadd.app">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-confer-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/card-confer-light.svg">
+          <img src="assets/card-confer-dark.svg" alt="Confer" width="100%">
+        </picture>
+      </a>
     </td>
-    <td width="50%" valign="top">
-      <strong><a href="https://sadd.app">Sadd</a></strong> &nbsp;<img src="https://img.shields.io/badge/LIVE-0284c7?style=flat-square" alt="Live" />
-      <br><br>
-      A focus app built with intention, a deliberate barrier between you and the infinite feed.
-      <br><br>
-      <code>SwiftUI</code> · <code>iOS</code> · <code>Supabase</code> · <code>RevenueCat</code>
+    <td width="50%" align="center" style="border: none; padding: 6px;">
+      <a href="https://sadd.app">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-sadd-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/card-sadd-light.svg">
+          <img src="assets/card-sadd-dark.svg" alt="Sadd" width="100%">
+        </picture>
+      </a>
     </td>
   </tr>
   <tr>
-    <td colspan="2" valign="top">
-      <strong>InfinixLeverage</strong> &nbsp;<img src="https://img.shields.io/badge/LIVE-0284c7?style=flat-square" alt="Live" />
-      <br><br>
-      Operations Director: client success, delivery systems, and the plumbing that keeps voice AI systems shipping.
-      <br><br>
-      <code>Voice AI</code> · <code>Evaluation Frameworks</code> · <code>JavaScript</code> · <code>Docker</code>
+    <td colspan="2" align="center" style="border: none; padding: 6px;">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/card-infinixleverage-dark.svg">
+        <source media="(prefers-color-scheme: light)" srcset="assets/card-infinixleverage-light.svg">
+        <img src="assets/card-infinixleverage-dark.svg" alt="InfinixLeverage" width="50%">
+      </picture>
     </td>
   </tr>
 </table>
@@ -100,9 +106,9 @@ class AsjadRehman:
         return "Distributed systems, algorithmic defense, and human intention."
 ```
 
-<table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
   <tr>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" style="border: none; padding: 10px;">
       <strong>🔭 Currently building</strong><br>
       <ul>
         <li>AegisSwarm edge counter-drone stack</li>
@@ -110,7 +116,7 @@ class AsjadRehman:
         <li>Sadd &amp; Confer donation ecosystem</li>
       </ul>
     </td>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" style="border: none; padding: 10px;">
       <strong>🌱 Currently researching</strong><br>
       <ul>
         <li>Religiosity &amp; political participation in Pakistan</li>
@@ -161,6 +167,14 @@ class AsjadRehman:
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=asjad-rehman&layout=compact&hide_border=true&bg_color=05070c&title_color=2dd4bf&text_color=94a3b8" height="165" alt="Top Languages" />
 </p>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/output/github-contribution-grid-snake.svg">
+    <img src="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="100%">
+  </picture>
+</div>
 
 <div align="center">
 <picture>

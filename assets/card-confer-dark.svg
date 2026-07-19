@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 120" width="380" height="120">
+  <defs>
+    <linearGradient id="bg-grad-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070c16" />
+      <stop offset="100%" stop-color="#121824" />
+    </linearGradient>
+    <radialGradient id="glow" cx="10%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Border & Background -->
+  <rect width="380" height="120" rx="8" fill="url(#bg-grad-dark)" stroke="#30363d" stroke-width="1" />
+  <rect width="380" height="120" rx="8" fill="url(#glow)" />
+  
+  <!-- Icon Wrapper -->
+  <g transform="translate(20, 36)">
+    <circle cx="24" cy="24" r="28" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <g transform="translate(12, 12)">
+      <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="#c084fc" />
+                   <path d="M12 7v6M9 10h6" stroke="#fff" stroke-width="1.5" stroke-linecap="round" opacity="0.9" />
+    </g>
+  </g>
+
+  <!-- Content -->
+  <g transform="translate(88, 20)">
+    <!-- Title -->
+    <text x="0" y="15" fill="#f0f6fc" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="15">Confer</text>
+    
+    <!-- Tag -->
+    <g transform="translate(210, 0)">
+      <rect width="60" height="18" rx="3" fill="#161b22" stroke="#c084fc" stroke-width="1" />
+      <text x="30" y="12" fill="#c084fc" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="9" text-anchor="middle">LIVE</text>
+    </g>
+    
+    <!-- Description -->
+    <foreignObject x="0" y="26" width="270" height="42">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="color: #8b949e; font-family: system-ui, -apple-system, sans-serif; font-size: 11px; line-height: 1.35; max-height: 38px; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+        Donation infrastructure for communities: checkout & iPad kiosk flow.
+      </div>
+    </foreignObject>
+    
+    <!-- Tech Stack -->
+    <text x="0" y="85" fill="#c084fc" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="600" opacity="0.95">Next.js · React · .NET MAUI · Supabase</text>
+  </g>
+</svg>
