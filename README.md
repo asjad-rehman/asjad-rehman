@@ -6,7 +6,16 @@
   <img alt="Muhammad Asjad Rehman Hashmi" src="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/banner-dark.svg" width="100%">
 </picture>
 
-<p><em>Three ventures built from zero. Autonomous systems, ethical supply chains, and faith-centered software.</em></p>
+<!-- glass navigation — mirrors the hero -->
+<p align="center">
+  <a href="#-ventures"><img src="https://img.shields.io/badge/Ventures-0b1020?style=for-the-badge&logo=rocket&logoColor=2dd4bf" alt="Ventures"></a>
+  &nbsp;
+  <a href="#-research"><img src="https://img.shields.io/badge/Research-0b1020?style=for-the-badge&logo=googlescholar&logoColor=c084fc" alt="Research"></a>
+  &nbsp;
+  <a href="#-connect"><img src="https://img.shields.io/badge/Connect-0b1020?style=for-the-badge&logo=minutemailer&logoColor=2dd4bf" alt="Connect"></a>
+</p>
+
+<p><em>Three ventures built from zero &mdash; autonomous systems, ethical supply chains, and faith-centered software.</em></p>
 
 [![asjadrehman.com](https://img.shields.io/badge/asjadrehman.com-0f172a?style=for-the-badge&logo=firefox&logoColor=2dd4bf)](https://asjadrehman.com)
 &nbsp;·&nbsp;
@@ -30,7 +39,7 @@
 
 </div>
 
-### 🚀 Flagship Ventures
+### 🚀 Ventures
 
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
   <tr>
@@ -94,7 +103,7 @@
 </picture>
 </div>
 
-### 👨🏻‍💻 Terminal Profile
+### 🧭 Terminal Profile
 
 ```python
 class AsjadRehman:
@@ -103,10 +112,20 @@ class AsjadRehman:
         self.education   = ["B.S. Computer Science", "B.A. Political Science — USM '27"]
         self.roles       = ["Founder @ AegisSwarm", "VP @ Islamic Center of Hattiesburg", "Cato Institute Summer Fellow"]
         self.philosophy  = "Building impactful systems — securely, cleanly, and consciously."
-        
+
     def execute(self):
         return "Distributed systems, algorithmic defense, and human intention."
 ```
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/divider-light.svg">
+  <img alt="" src="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/divider-dark.svg" width="60%">
+</picture>
+</div>
+
+### 🔬 Research
 
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
   <tr>
@@ -137,7 +156,7 @@ class AsjadRehman:
 </picture>
 </div>
 
-### 🛠️ Technology Arsenal
+### 🧰 Arsenal
 
 <div align="center">
   <strong>Languages &amp; Core</strong><br>
@@ -158,7 +177,7 @@ class AsjadRehman:
 </picture>
 </div>
 
-### 📊 GitHub Activity &amp; Metrics
+### 📊 Signal
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=asjad-rehman&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=05070c&title_color=2dd4bf&icon_color=c084fc&text_color=94a3b8" height="165" alt="GitHub Stats" />
@@ -186,6 +205,20 @@ class AsjadRehman:
 </picture>
 </div>
 
-<p align="center">
-  <sub>System executing... EOF. Let's build something revolutionary together! 🚀</sub>
-</p>
+### 📡 Connect
+
+<div align="center">
+
+[![asjadrehman.com](https://img.shields.io/badge/asjadrehman.com-0f172a?style=for-the-badge&logo=firefox&logoColor=2dd4bf)](https://asjadrehman.com)
+&nbsp;·&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0f172a?style=for-the-badge&logo=linkedin&logoColor=c084fc)](https://linkedin.com/in/asjad-rehman)
+&nbsp;·&nbsp;
+[![Email](https://img.shields.io/badge/Email-0f172a?style=for-the-badge&logo=gmail&logoColor=2dd4bf)](mailto:MuhammadAsjad.RehmanHashmi@gmail.com)
+&nbsp;·&nbsp;
+[![X](https://img.shields.io/badge/X-0f172a?style=for-the-badge&logo=x&logoColor=c084fc)](https://x.com/a5jadrehman)
+
+<br>
+
+<sub>Crafted in <strong>Liquid Glass</strong> — every panel, card, and divider is a self-contained SVG with real <code>feTurbulence</code> + <code>feDisplacementMap</code> refraction. No screenshots, no bitmaps. 🚀</sub>
+
+</div>
