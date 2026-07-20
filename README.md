@@ -185,25 +185,8 @@ class AsjadRehman:
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=asjad-rehman&hide_border=true&background=05070c&stroke=2dd4bf&ring=c084fc&fire=c084fc&currStreakLabel=c084fc&sideLabels=94a3b8&currStreakNum=94a3b8&sideNums=94a3b8&dates=94a3b8" height="165" alt="Streak Stats" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=asjad-rehman&layout=compact&hide_border=true&bg_color=05070c&title_color=2dd4bf&text_color=94a3b8" height="165" alt="Top Languages" />
-</p>
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/output/github-contribution-grid-snake.svg">
-    <img src="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="100%">
-  </picture>
-</div>
 
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/divider-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/divider-light.svg">
-  <img alt="" src="https://raw.githubusercontent.com/asjad-rehman/asjad-rehman/main/assets/divider-dark.svg" width="60%">
-</picture>
-</div>
 
 ### 📡 Connect
 
@@ -218,7 +201,5 @@ class AsjadRehman:
 [![X](https://img.shields.io/badge/X-0f172a?style=for-the-badge&logo=x&logoColor=c084fc)](https://x.com/a5jadrehman)
 
 <br>
-
-<sub>Crafted in <strong>Liquid Glass</strong> — every panel, card, and divider is a self-contained SVG with real <code>feTurbulence</code> + <code>feDisplacementMap</code> refraction. No screenshots, no bitmaps. 🚀</sub>
 
 </div>
