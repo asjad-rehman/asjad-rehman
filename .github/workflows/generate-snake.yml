@@ -2,11 +2,12 @@ name: generate animation
 
 on:
   schedule:
-    - cron: "0 */24 * * *" 
+    - cron: "0 0 * * 1" 
   workflow_dispatch:
-  push:
-    branches:
-    - main
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   generate:
